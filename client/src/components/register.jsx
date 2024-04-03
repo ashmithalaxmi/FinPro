@@ -1,12 +1,10 @@
 import React, { useState,useEffect } from 'react';
 
 function RegisterUser() {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [role, setRole] = useState('');
   const [password, setPassword] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
   const [error, setError] = useState('');
   const [userRole, setUserRole] = useState('');
 
@@ -21,12 +19,8 @@ function RegisterUser() {
     console.log(userRole);
   }, []);
 
-  const handleFirstNameChange = (event) => {
-    setFirstName(event.target.value);
-  };
-
-  const handleLastNameChange = (event) => {
-    setLastName(event.target.value);
+  const handleNameChange = (event) => {
+    setName(event.target.value);
   };
 
   const handleEmailChange = (event) => {
@@ -35,10 +29,6 @@ function RegisterUser() {
 
   const handlePasswordChange = (event) => {
     setPassword(event.target.value);
-  };
-
-  const handlePhoneNumberChange = (event) => {
-    setPhoneNumber(event.target.value);
   };
 
   const handleRoleChange = (event) => {
@@ -61,7 +51,7 @@ function RegisterUser() {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${sessionStorage.getItem("accessToken")}`
         },
-        body: JSON.stringify({ first_name:firstName, last_name:lastName, role:role, email:email, password:password, phone_number:phoneNumber }),
+        body: JSON.stringify({ name:name, role:role, email:email, password:password}),
       });
 
       const res = await response.json();
@@ -85,23 +75,12 @@ function RegisterUser() {
       <h1 className="text-2xl font-bold mb-4">Register New User</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="flex flex-col">
-          <label htmlFor="firstName" className="mb-1">First Name:</label>
+          <label htmlFor="name" className="mb-1">Name:</label>
           <input
             type="text"
-            id="firstName"
-            value={firstName}
-            onChange={handleFirstNameChange}
-            className="border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:border-blue-500"
-            required
-          />
-        </div>
-        <div className="flex flex-col">
-          <label htmlFor="lastName" className="mb-1">Last Name:</label>
-          <input
-            type="text"
-            id="lastName"
-            value={lastName}
-            onChange={handleLastNameChange}
+            id="name"
+            value={name}
+            onChange={handleNameChange}
             className="border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:border-blue-500"
             required
           />
@@ -143,18 +122,7 @@ function RegisterUser() {
             required
           />
         </div>
-        <div className="flex flex-col">
-          <label htmlFor="phoneNumber" className="mb-1">Phone Number:</label>
-          <input
-            type="text"
-            id="phoneNumber"
-            value={phoneNumber}
-            onChange={handlePhoneNumberChange}
-            className="border border-gray-300 px-3 py-2 rounded-md focus:outline-none focus:border-blue-500"
-            required
-          />
-        </div>
-        {error && <p className="text-red-500">{error}</p>}
+       {error && <p className="text-red-500">{error}</p>}
         <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md">Register</button>
       </form>
     </div>

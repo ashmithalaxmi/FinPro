@@ -250,8 +250,8 @@ const timesheetSchema = new mongoose.Schema({
 });
 
 const timesheetModel = mongoose.model('timesheets', timesheetSchema);
-const UserModel = new mongoose.model("users", userSchema)
-const otpModel = new mongoose.model("temp_otps", otpSchema)
+const UserModel = mongoose.model("users", userSchema)
+const otpModel = mongoose.model("temp_otps", otpSchema)
 
 module.exports = {
     UserModel,

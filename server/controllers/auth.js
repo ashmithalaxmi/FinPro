@@ -32,17 +32,14 @@ const login = async (req, res) => {
 
 const register_user = async (req, res) => {
     try {
-        const { first_name, last_name, role, password, email, phone_number } = req.body;
+        const { name, role, password, email } = req.body;
 
         if (req.user && req.user.role === "admin") {
             const newUser = new UserModel({
-                first_name: first_name,
-                last_name: last_name,
+                name: name,
                 role: role,
                 password: password,
                 email: email,
-                phone_number: phone_number,
-                created_at: new Date()
               });
               
               
