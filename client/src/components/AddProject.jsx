@@ -35,7 +35,7 @@ function AddProject() {
       });
       
       const res = await response.json()
-      if (res.message!="Project Added") {
+      if (res.message!=="Project Added") {
         alert('Failed to add project');
       }
       else {

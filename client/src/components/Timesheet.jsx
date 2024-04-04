@@ -428,14 +428,14 @@ function TimeSheetParent() {
                         <td className="py-2">
                             <textarea value={data[1].comment} id={id} onChange={ChangeComment} rows="2" cols="30" className="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"></textarea>
                         </td>
-                        <td className="py-2"><input type="text" value={data[1].mon} id={id} onChange={ChangeMon} className="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" /></td>
-                        <td className="py-2"><input type="text" value={data[1].tue} id={id} onChange={ChangeTue} className="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" /></td>
-                        <td className="py-2"><input type="text" value={data[1].wed} id={id} onChange={ChangeWed} className="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" /></td>
-                        <td className="py-2"><input type="text" value={data[1].thur} id={id} onChange={ChangeThur} className="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" /></td>
-                        <td className="py-2"><input type="text" value={data[1].fri} id={id} onChange={ChangeFri} className="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" /></td>
-                        <td className="py-2"><input type="text" value={data[1].sat} id={id} onChange={ChangeSat} className="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" /></td>
-                        <td className="py-2"><input type="text" value={data[1].sun} id={id} onChange={ChangeSun} className="block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" /></td>
-                        <td className="py-2"><p>{total}</p></td>
+                        <td><input type="text" value={data[1].mon} id={id} onChange={ChangeMon} style={{ width: '50px', alignItems:"center" }} /></td>
+                        <td><input type="text" value={data[1].tue} id={id} onChange={ChangeTue} style={{ width: '50px' }} /></td>
+                        <td><input type="text" value={data[1].wed} id={id} onChange={ChangeWed} style={{ width: '50px' }} /></td>
+                        <td><input type="text" value={data[1].thur} id={id} onChange={ChangeThur} style={{ width: '50px' }} /></td>
+                        <td><input type="text" value={data[1].fri} id={id} onChange={ChangeFri} style={{ width: '50px' }} /></td>
+                        <td><input type="text" value={data[1].sat} id={id} onChange={ChangeSat} style={{ width: '50px' }} /></td>
+                        <td><input type="text" value={data[1].sun} id={id} onChange={ChangeSun} style={{ width: '50px' }} /></td>
+                        <td>{total}</td>
                         <td className="py-2"><button onClick={CreateNewEntry} className="px-4 py-2 bg-green-500 text-white rounded-md focus:outline-none focus:bg-green-600">+</button></td>
                         {id !== firstID && <td className="py-2"><button id={id} onClick={DeleteEntry} className="px-4 py-2 bg-red-500 text-white rounded-md focus:outline-none focus:bg-red-600">-</button></td>}
                     </tr>
@@ -470,7 +470,7 @@ function TimeSheetParent() {
                     </tbody>
                 </table>
                 <div className="mt-4">
-                    <Button onClick={handleSave} label="save" className="mr-2" />
+                    <Button onClick={handleSave} label="save" className="mr-2" />&nbsp;&nbsp;&nbsp;&nbsp;
                     <Button onClick={handleSubmit} label="submit" />
                 </div>
             </div>

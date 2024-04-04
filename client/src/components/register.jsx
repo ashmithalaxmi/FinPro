@@ -10,8 +10,8 @@ function RegisterUser() {
 
   const roles = [
     "admin",
-    "engineer",
-    "consultant"
+    "intern",
+    "architect"
   ]
 
   useEffect(() => {

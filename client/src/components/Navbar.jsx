@@ -20,10 +20,10 @@ const TopNavbar = () => {
       <h1 className="text-2xl font-bold">Your Website</h1>
       <div className="flex items-center space-x-4">
         {/* Display other navigation links */}
-        <ul className="flex space-x-4">
-          <li><a href="/home">Home</a></li>
-          <li><a href="/feedback">Feedback</a></li>
-          <li><a href="#">Services</a></li>
+        <ul className="flex space-x-4" style={{listStyle: "none", display:"flex"}}>
+          <li><a href="/home">Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+          <li><a href="/feedback">Feedback</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+          <li><a href="#">Services</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
           <li><a href="#">Contact</a></li>
         </ul>
         {/* Display email and logout button */}

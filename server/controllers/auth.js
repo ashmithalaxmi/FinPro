@@ -47,7 +47,7 @@ const register_user = async (req, res) => {
                 const result = await newUser.save();
                 console.log(result);
                 const mailData = {
-                    from: 'aiarjun027@gmail.com', 
+                    from: 'ashmithalaxmi@jmangroup.com', 
                       to: email,   
                       subject: 'welcome to appliation',
                       text: 'mail added',
@@ -103,7 +103,7 @@ const generate_otp = async (req, res) => {
             res.json({ message: "OTP created successfully", payload: result });
 
             const mailData = {
-                from: 'aiarjun027@gmail.com', 
+                from: 'ashmithalaxmi@jmangroup.com', 
                   to: email,   
                   subject: 'OTP - please do not share dude',
                   text: 'OTP requested',

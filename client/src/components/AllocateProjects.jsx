@@ -61,7 +61,7 @@ const AllocateProjects = () => {
       });
       
       const res = await response.json()
-      if (res.message!="Project allocated") {
+      if (res.message!=="Project allocated") {
         alert('Failed to allocate project');
       }
       else {

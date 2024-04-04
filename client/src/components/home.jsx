@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Addproject from './AddProject';
 import AllocateProjects from './AllocateProjects';
 import RegisterUser from './register';
 import TimeSheetParent from './Timesheet';
+import { Link } from 'react-router-dom';
 import TopNavbar from './Navbar';
 
 function HomePage() {
@@ -31,9 +32,13 @@ function HomePage() {
           <RegisterUser />
         </div>
       )}
-      {role === 'engineer' && (
+      {role === 'architect' && (
         <div>
-          <TimeSheetParent />
+          <h1>Welcome to the Home Page</h1>
+          <h2>Hello Intern!</h2>
+          <br></br>
+          <button><Link to='/timesheet'>Create Timesheet</Link></button>
+          {/* <TimeSheetParent /> */}
         </div>
       )}
     </div>
