@@ -7,12 +7,12 @@ import TopNavbar from './Navbar';
 function FeedbackDashModule() {
     const [accessToken, setToken] = useState(sessionStorage.getItem('accessToken')); // Assume user is not an admin by default  
     const [feedbackFilled, setFeedbackFIlled] = useState({})
-    const [projects, setProjets] = useState({})
+    const [projects, setProjets] = useState([])
     const navigate = useNavigate();
 
     useEffect(() => {
         if (!accessToken) {
-            navigate('/login');
+            navigate('/');
         } else {
             const getUsersFeedbacks = async () => {
                 try {
@@ -37,7 +37,6 @@ function FeedbackDashModule() {
         }
     }, []);
 
-
     return (
         <div>
         <TopNavbar/>
@@ -46,7 +45,7 @@ function FeedbackDashModule() {
             {Object.values(feedbackFilled).map((entry, index) => (
                 <div key={index} className="bg-white shadow-md rounded-lg ">
                     <div className="p-4">
-                        <h5 className="text-xl font-semibold mb-2">Project: {projects.find(project => project.PID === entry.PID)['name']}</h5>
+                        <h5 className="text-xl font-semibold mb-2">Project: {projects.find(project => project.PID === entry.PID)}</h5>
                         <p className="text-sm text-gray-600 mb-2">
                             Start Period: {new Date(entry.start_period).toDateString()}<br />
                             End Period: {new Date(entry.end_period).toDateString()}

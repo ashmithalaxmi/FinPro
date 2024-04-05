@@ -24,8 +24,7 @@ const create_project = async (req, res) => {
                 name: name,
                 start: start,
                 end: end,
-                client_name:client_name,
-                created_at: new Date()
+                client_name:client_name
                 });
                 
                 try {
@@ -55,8 +54,7 @@ const allocate_project = async (req, res) => {
                 PID: PID,
                 email: email,
                 allocation_start: allocation_start,
-                allocation_end: allocation_end,
-                created_at: new Date()
+                allocation_end: allocation_end
                 });
                 
                 try {

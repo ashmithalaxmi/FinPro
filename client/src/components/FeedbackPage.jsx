@@ -21,7 +21,7 @@ function FeedbackModule() {
 
     useEffect(() => {
         if (!accessToken) {
-            navigate('/login');
+            navigate('/');
         }
 
         console.log(decodedPID, decodedStart, decodedEnd)
@@ -66,11 +66,12 @@ function FeedbackModule() {
             });
 
             const res = await response.json()
-            if (res.message != "Feedback data saved") {
-                alert('Failed to save data');
+            console.log(res);
+            if (res.message === "Feedback data saved") {
+                alert('feedback given succussfully')
             }
             else {
-                alert('feedback given succussfully')
+                alert('Failed to save data');
             }
 
             navigate('/feedback');

@@ -42,14 +42,14 @@ function ForgetPasswordOTPPage() {
 
             else {
                 alert('password changed succufully')
-                navigate('/login');
+                navigate('/');
             }
 
         } catch (error) {
             console.error('Error:', error.message);
             // Handle error, show error message to the user, etc.
         }
-    navigate('/login');
+    navigate('/');
 };
 
 return (

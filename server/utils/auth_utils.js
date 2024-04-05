@@ -3,13 +3,13 @@ const accessTokenSecret = 'youraccesstokensecret';
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
-    port: 465,               // true for 465, false for other ports
-    host: "smtp.gmail.com",
+  host: 'smtp.office365.com',
+  port: 587,
+  secure: false,
        auth: {
             user: 'ashmithalaxmi@jmangroup.com',
             pass: 'Jman@600113',
          },
-    secure: true,
     });
 
 

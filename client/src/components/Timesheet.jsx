@@ -392,8 +392,7 @@ function TimeSheetParent() {
                     fri: 0,
                     sat: 0,
                     sun: 0,
-                    visible: true,
-                    created_at: new Date()
+                    visible: true
                 };
                 seedSetter(Math.random())
             }

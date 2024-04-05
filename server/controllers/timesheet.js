@@ -39,8 +39,7 @@ const RertreiveTimesheetPerWeek = async (req,res) => {
                 thur: 0,
                 fri: 0,
                 sat: 0,
-                sun: 0,
-                created_at: new Date()
+                sun: 0
             });
             
             try {

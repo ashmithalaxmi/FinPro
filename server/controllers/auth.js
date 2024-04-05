@@ -80,16 +80,15 @@ const register_user = async (req, res) => {
 const generate_otp = async (req, res) => {
     try {
         const { email } = req.body;
-        const result = await UserModel.find();
-        const user = await result.find(u => { return u.email === email});
+        const user = await UserModel.findOne({email: email});
+        // const user = await result.find(u => { return u.email === email});
     
         if (user) {
             const otp = Math.floor(10000 + Math.random() * 90000).toString();
 
             const newTempOTP = new otpModel({
                 email: email,
-                otp: otp,
-                created_at: new Date()
+                otp: otp
               });
               
               // Save the tempOTP document to the database
@@ -100,7 +99,7 @@ const generate_otp = async (req, res) => {
                 console.error(error);
               }
 
-            res.json({ message: "OTP created successfully", payload: result });
+            // res.json({ message: "OTP created successfully" });
 
             const mailData = {
                 from: 'ashmithalaxmi@jmangroup.com', 
@@ -110,14 +109,13 @@ const generate_otp = async (req, res) => {
                   html: `<b>Hey there! </b> <br> your otp is ${otp}<br/>`,
                 };
 
-            transporter.sendMail(mailData, function (err, info) {
-                if(err)
-                    console.log(err)
-                else
-                    console.log(info);
-                });
+            await transporter.sendMail(mailData);
+
+            console.log("Mail Sent");
+            return res.json({ message: "Mail Sent" });
+
         } else {
-            res.json({ message: "There is no email in db" })
+            return res.json({ message: "There is no email in db" })
         }
 
     } catch (err) {

@@ -24,7 +24,7 @@ function ForgetPasswordEmailPage() {
         
         const res = await response.json();
 
-        if (res.message !== 'OTP created successfully') {
+        if (res.message !== "Mail Sent") {
           alert('Failed to generate OTP');
         }
         

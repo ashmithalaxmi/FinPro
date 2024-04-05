@@ -9,7 +9,7 @@ const TopNavbar = () => {
     // Clear access token from sessionStorage
     sessionStorage.removeItem('accessToken');
     // Redirect to login page
-    navigate('/login');
+    navigate('/');
   };
 
   // Get email from sessionStorage
@@ -23,8 +23,6 @@ const TopNavbar = () => {
         <ul className="flex space-x-4" style={{listStyle: "none", display:"flex"}}>
           <li><a href="/home">Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
           <li><a href="/feedback">Feedback</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-          <li><a href="#">Services</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-          <li><a href="#">Contact</a></li>
         </ul>
         {/* Display email and logout button */}
         <div className="flex items-center space-x-4">

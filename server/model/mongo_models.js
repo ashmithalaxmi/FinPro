@@ -25,10 +25,6 @@ const otpSchema = new mongoose.Schema({
     otp: {
       type: String,
       required:true
-    },
-    created_at: {
-      type: Date,
-      default: Date.now
     }
   });
 
@@ -54,10 +50,6 @@ const projectSchema = new mongoose.Schema({
   end: {
     type: Date,
     required: true
-  },
-  created_at: {
-    type: Date,
-    default: Date.now
   }
 });
 
@@ -119,10 +111,6 @@ const feedbackSchema = new mongoose.Schema({
   end_period: {
     type: Date,
     required: true
-  },
-  created_at: {
-    type: Date,
-    default: Date.now
   }
 });
 
@@ -148,10 +136,6 @@ const feedbackHistorySchema = new mongoose.Schema({
   feedback_given:{
     type:Boolean,
     required:true
-  },
-  created_at: {
-    type: Date,
-    default: Date.now
   }
 });
 
@@ -174,10 +158,6 @@ const projectAssignmentSchema = new mongoose.Schema({
   allocation_end: {
     type: Date,
     required: true
-  },
-  created_at: {
-    type: Date,
-    default: Date.now
   }
 });
 
@@ -238,10 +218,6 @@ const timesheetSchema = new mongoose.Schema({
   sun: {
     type: Number,
     required: true
-  },
-  created_at: {
-    type: Date,
-    default: Date.now
   },
   visible:{
     type:Boolean,

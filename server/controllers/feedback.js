@@ -7,14 +7,11 @@ const { UserModel,
 
 
 const CreateFeedbackEntry = async (req, res) => {
-
     try {
 
         const email = req.user.email;
         const role = req.user.role;
         const { PID, start_period, end_period, feedback } = req.body;
-
-        console.log(req.body);
 
         const newFeedback = new feedbackModel({
             email: email,
@@ -30,21 +27,15 @@ const CreateFeedbackEntry = async (req, res) => {
             q6: feedback['q6'],
             q7: feedback['q7'],
             q8: feedback['q8'],
-            comments: feedback['comments'],
-            created_at: new Date()
+            comments: feedback['comments']
         });
 
-        try {
-            const result = await newFeedback.save();
-            console.log(result);
-            res.json({ message: "Feedback data saved" });
-        } catch (error) {
-            console.error(error);
-        }
+        await newFeedback.save();
+        console.log("Feedback Saved");
 
+        return res.json({ message: "Feedback data saved" });
     } catch (error) {
-        console.log(error);
-        res.json({ "message": "unable to create feedback entry" })
+        return res.json({ message: "unable to create feedback entry" })
     }
 }
 
