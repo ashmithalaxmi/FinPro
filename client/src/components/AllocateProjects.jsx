@@ -65,7 +65,7 @@ const AllocateProjects = () => {
         alert('Failed to allocate project');
       }
       else {
-        alert('project allocated succussfully')
+        alert('Project allocated succussfully')
       }
  
       setFormData({

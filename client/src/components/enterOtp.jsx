@@ -41,7 +41,7 @@ function ForgetPasswordOTPPage() {
             }
 
             else {
-                alert('password changed succufully')
+                alert('Password changed succufully')
                 navigate('/');
             }
 

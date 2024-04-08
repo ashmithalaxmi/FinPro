@@ -132,6 +132,7 @@ function TimeSheetParent() {
                     },
                     body: JSON.stringify(Timesheetdata),
                 });
+                navigate('/feedback')
 
             } catch (error) {
                 console.error('Error fetching timesheet data:', error);

@@ -60,7 +60,7 @@ function RegisterUser() {
       if (res.message != "User created successfully") {
         alert("error in creating user");
       } else {
-        alert("user created succussfully")
+        alert("user created successfully")
       }
 
     } catch (error) {
