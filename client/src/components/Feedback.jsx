@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios'
 
 export const Feedback = () => {
-  // State to hold user responses
   const [formData, setFormData] = useState({
-    name: '', // Assuming name is part of formData
-    email: '',
     q1: '',
     q2: '',
     q3: '',
@@ -13,41 +11,36 @@ export const Feedback = () => {
     comments: ''
   });
 
-  // Function to handle form submission
-  // Function to handle form submission
-const handleSubmit = async (e) => {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('')
+
+
+  useEffect(() => {
+    const fetchCurrentUser = async () => {
+        try {
+          const response = await axios.get('http://localhost:5000/api/getCurrentUser')
+          setEmail(response.data.email)
+          setName(response.data.name)
+          console.log("User feteched")
+        } catch (error) {
+          console.log('Error fetching current user data:', error);
+        }
+      };
+
+      fetchCurrentUser();
+  }, [])
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-  
     try {
-      // Fetch currently logged-in user's data
-      const currentUserResponse = await fetch('/getCurrentUser');
-      console.log(currentUserResponse.ok);
-      const currentUserData = await currentUserResponse.json();
-  
-      if (currentUserResponse.ok) {
-        // Add user's name and email to the feedback data
-        const feedbackData = {
-          name: currentUserData.name,
-          email: currentUserData.email,
-          q1: formData.q1,
-          q2: formData.q2,
-          q3: formData.q3,
-          q4: formData.q4,
-          q5: formData.q5,
-          comments: formData.comments
-        };
-  
-        // Make a POST request to the backend API to store feedback
-        const response = await fetch('/submitFeedback', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify(feedbackData) // Send feedback data with user's name and email
+        // Send form data, name, and email to the backend
+        const response = await axios.post('http://localhost:5000/api/submitFeedback', {
+          ...formData,
+          name: name,
+          email: email
         });
-  
-        // Check if the request was successful
-        if (response.ok) {
+        
+        if (response.status === 200) {
           console.log('Feedback submitted successfully');
           // Reset form data after successful submission
           setFormData({
@@ -61,13 +54,10 @@ const handleSubmit = async (e) => {
         } else {
           console.error('Failed to submit feedback');
         }
-      } else {
-        console.error('Failed to fetch current user data');
+      } catch (error) {
+        console.error('Error submitting feedback:', error);
       }
-    } catch (error) {
-      console.error('Error submitting feedback:', error);
-    }
-  };
+  }
   
 
   // Function to handle input changes

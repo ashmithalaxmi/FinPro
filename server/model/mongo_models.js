@@ -56,90 +56,90 @@ const projectSchema = new mongoose.Schema({
 const projectModel = mongoose.model('projects', projectSchema);
 
 // Define Feedback Schema
-const feedbackSchema = new mongoose.Schema({
-  email: {
-    type: String,
-    required: true
-  },
-  PID: {
-    type: String,
-    required: true
-  },
-  role:{
-    type:String,
-    required:true
-  },
-  q1:{
-    type:Number,
-    required:true
-  },
-  q2:{
-    type:Number,
-    required:true
-  },
-  q3:{
-    type:Number,
-    required:true
-  },
-  q4:{
-    type:Number,
-    required:true
-  },
-  q5:{
-    type:Number,
-    required:true
-  },
-  q6:{
-    type:Number,
-    required:true
-  },
-  q7:{
-    type:Number,
-    required:true
-  },
-  q8:{
-    type:Number,
-    required:true
-  },
-  comments:{
-    type:String,
-  },
-  start_period: {
-    type: Date,
-    required: true
-  },
-  end_period: {
-    type: Date,
-    required: true
-  }
-});
+// const feedbackSchema = new mongoose.Schema({
+//   email: {
+//     type: String,
+//     required: true
+//   },
+//   PID: {
+//     type: String,
+//     required: true
+//   },
+//   role:{
+//     type:String,
+//     required:true
+//   },
+//   q1:{
+//     type:Number,
+//     required:true
+//   },
+//   q2:{
+//     type:Number,
+//     required:true
+//   },
+//   q3:{
+//     type:Number,
+//     required:true
+//   },
+//   q4:{
+//     type:Number,
+//     required:true
+//   },
+//   q5:{
+//     type:Number,
+//     required:true
+//   },
+//   q6:{
+//     type:Number,
+//     required:true
+//   },
+//   q7:{
+//     type:Number,
+//     required:true
+//   },
+//   q8:{
+//     type:Number,
+//     required:true
+//   },
+//   comments:{
+//     type:String,
+//   },
+//   start_period: {
+//     type: Date,
+//     required: true
+//   },
+//   end_period: {
+//     type: Date,
+//     required: true
+//   }
+// });
 
-const feedbackModel = mongoose.model('feedbacks', feedbackSchema);
+// const feedbackModel = mongoose.model('feedbacks', feedbackSchema);
 
-const feedbackHistorySchema = new mongoose.Schema({
-  PID:{
-    type: String,
-    required:true
-  },
-  email: {
-    type: String,
-    required: true
-  },
-  start_period: {
-    type: Date,
-    required: true
-  },
-  end_period: {
-    type: Date,
-    required: true
-  },
-  feedback_given:{
-    type:Boolean,
-    required:true
-  }
-});
+// const feedbackHistorySchema = new mongoose.Schema({
+//   PID:{
+//     type: String,
+//     required:true
+//   },
+//   email: {
+//     type: String,
+//     required: true
+//   },
+//   start_period: {
+//     type: Date,
+//     required: true
+//   },
+//   end_period: {
+//     type: Date,
+//     required: true
+//   },
+//   feedback_given:{
+//     type:Boolean,
+//     required:true
+//   }
+// });
 
-const feedbackHistoryModel = mongoose.model('feedback_histories', feedbackHistorySchema);
+// const feedbackHistoryModel = mongoose.model('feedback_histories', feedbackHistorySchema);
 
 // Define Project Assignment Schema
 const projectAssignmentSchema = new mongoose.Schema({
@@ -225,6 +225,35 @@ const timesheetSchema = new mongoose.Schema({
   }
 });
 
+const feedbckSchema = new mongoose.Schema({
+  name: {
+    type: String
+  },
+  email: {
+    type: String
+  },
+  q1:{
+    type:Number
+  },
+  q2:{
+    type:Number
+  },
+  q3:{
+    type:Number
+  },
+  q4:{
+    type:Number
+  },
+  q5:{
+    type:Number
+  },
+  comments:{
+    type:String
+  }
+});
+
+const feedbckModel = mongoose.model('feedbcks', feedbckSchema);
+
 const timesheetModel = mongoose.model('timesheets', timesheetSchema);
 const UserModel = mongoose.model("users", userSchema)
 const otpModel = mongoose.model("temp_otps", otpSchema)
@@ -235,6 +264,7 @@ module.exports = {
     projectAssignmentModel,
     timesheetModel,
     projectModel,
-    feedbackModel,
-    feedbackHistoryModel
+    // feedbackModel,
+    // feedbackHistoryModel,
+    feedbckModel
 };

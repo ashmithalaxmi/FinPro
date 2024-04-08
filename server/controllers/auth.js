@@ -7,6 +7,7 @@ const { UserModel,
     timesheetModel,
     projectModel,
     feedbackModel } = require('../model/mongo_models');
+let loggedUser = null;
 
     
 const login = async (req, res) => {
@@ -21,6 +22,7 @@ const login = async (req, res) => {
                 accessToken,
                 role:user.role
             });
+            loggedUser = user;
         } else {
             res.json({ message: 'Username or password incorrect' });
         }
@@ -173,11 +175,27 @@ const test = async (req, res) => {
     res.send("Server UP!!")
 }
 
+const getCurrentUser = async (req, res) => {
+    try{
+        if(loggedUser){
+            res.status(200).json(loggedUser)
+        }
+        else{
+            res.status(404).json({message: "User not found"})
+        }
+    }
+    catch(error){
+        console.log("Error in fetching user", error);
+        res.status(500).json({message:"Internal Server Error!"});
+    }
+}
+
 module.exports = {
     login,
     test,
     register_user,
     generate_otp,
     change_password,
-    user_detail
+    user_detail,
+    getCurrentUser
 }
