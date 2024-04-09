@@ -17,7 +17,7 @@ const TopNavbar = () => {
 
   return (
     <nav className="bg-gray-900 text-white py-4 px-8 flex justify-between items-center">
-      <h1 className="text-2xl font-bold">Your Website</h1>
+      <h1 className="text-2xl font-bold">Management System</h1>
       <div className="flex items-center space-x-4">
         {/* Display other navigation links */}
         <ul className="flex space-x-4" style={{listStyle: "none", display:"flex"}}>

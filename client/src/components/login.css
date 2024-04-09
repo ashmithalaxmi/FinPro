@@ -1,0 +1,64 @@
+.navbar {
+    background-color: #19105b;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    height: 60px
+}
+  
+ .flex {
+    display: flex;
+}
+  
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+  
+.justify-center {
+    justify-content: center;
+}
+  
+.space-y-4{
+    align-items: right;
+    justify-content: right;
+}
+
+.center-box {
+   background-color: #f8f8f8;
+    border: 1px solid black; /* Set border properties */
+    padding: 15px; /* Set padding around the content */
+    width: 33%; /* Set the width of the box */
+    margin: 0 auto; /* Center the box horizontally */
+    margin-top: 55px;
+    box-sizing: border-box; /* Include border and padding in the width calculation */
+}
+
+
+/* .whole{
+    background-color: rgb(240, 230, 216);
+    max-resolution: height;
+} */
+
+body {
+    background-color: rgb(218, 233, 237);
+}
+
+/* .h-screen {
+    height: 100vh;
+} */
+  
+/* .whole {
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+   */

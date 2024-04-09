@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate,useLocation } from 'react-router-dom';
+import './login.css'
 
 function ForgetPasswordEmailPage() {
   const [email, setEmail] = useState('');
@@ -41,6 +42,10 @@ function ForgetPasswordEmailPage() {
 
   return (
     <div>
+       <div className='navbar'>
+           Timesheet and Feedback System  
+       </div>  
+       <center>
       <h1>Change Password</h1>
       <form onSubmit={handleSubmit}>
         <div>
@@ -53,8 +58,10 @@ function ForgetPasswordEmailPage() {
             required
           />
         </div>
+        <br/>
         <button type="submit">Send OTP</button>
       </form>
+      </center>
     </div>
   );
 }
