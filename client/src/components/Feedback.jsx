@@ -108,7 +108,7 @@ export const Feedback = () => {
           <option value="4">4</option>
           <option value="5">5</option>
         </select>
-        <p>  5. Is there any additional support or resources needed to improve the performance?</p>
+        <p>  5.  Was the resources and support sufficient?</p>
         <select name="q5" value={formData.q5} onChange={handleChange}>
           <option value="">Select</option>
           <option value="1">1</option>

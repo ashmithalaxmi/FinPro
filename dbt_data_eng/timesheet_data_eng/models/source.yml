@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: TF_SYSTEM
+    database: TIMESHEET
+    schema: RAW
+    tables:
+      - name: FEEDBACK
+      - name: PROJECT
+      - name: PROJECTASSIGN
+      - name: TEM_OTP
+      - name: TIMESHEET
+      - name:  USER

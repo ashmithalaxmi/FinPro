@@ -1,0 +1,501 @@
+_id,id,PID,activity,comments,start_period,end_period,mon,tue,wed,thur,fri,sat,sun,visible
+66166ec496fb1df606179f47,440,5071,Collaborating with cross-functional teams,hac habitasse platea dictumst morbi vestibulum velit id pretium,24-04-2023,19-06-2024,11,11,12,3,12,6,7,FALSE
+66166ec496fb1df606179f48,252,5120,Developing a new software,sapien urna pretium nisl ut volutpat sapien arcu sed,26-04-2023,20-06-2024,9,5,11,4,4,5,9,FALSE
+66166ec496fb1df606179f49,384,1480,Conducting a network security audit,,03-05-2023,23-06-2024,11,12,3,7,9,12,10,TRUE
+66166ec496fb1df606179f4a,138,7397,Optimizing database performance,risus praesent lectus vestibulum quam sapien varius ut blandit,09-05-2023,24-06-2024,6,11,8,11,8,9,12,FALSE
+66166ec496fb1df606179f4b,327,5370,Automating repetitive tasks,leo maecenas pulvinar lobortis est phasellus sit,11-05-2023,25-06-2024,5,4,6,11,12,6,3,TRUE
+66166ec496fb1df606179f4c,212,4290,Developing a new software,pulvinar lobortis est phasellus sit,11-05-2023,26-06-2024,11,9,3,5,8,4,9,FALSE
+66166ec496fb1df606179f4d,202,4370,Deploying a cloud-based solution,cubilia curae nulla dapibus dolor vel est donec odio justo,13-05-2023,26-06-2024,12,9,12,6,9,4,12,FALSE
+66166ec596fb1df606179f4e,126,1950,Setting up a project management tool,risus dapibus augue vel accumsan,22-05-2023,28-06-2024,11,12,8,10,10,4,10,TRUE
+66166ec596fb1df606179f4f,315,2041,Documenting software requirements,elit sodales scelerisque mauris sit,23-05-2023,28-06-2024,11,5,9,10,8,3,9,FALSE
+66166ec596fb1df606179f50,437,1402,Conducting a network security audit,,25-05-2023,29-06-2024,10,12,4,5,12,12,11,TRUE
+66166ec596fb1df606179f51,172,5430,Integrating third-party APIs,augue luctus tincidunt nulla mollis molestie lorem quisque ut erat,31-05-2023,02-07-2024,3,5,11,3,3,10,11,FALSE
+66166ec596fb1df606179f52,395,1062,Integrating third-party APIs,,01-06-2023,04-07-2024,11,9,11,10,3,7,8,TRUE
+66166ec596fb1df606179f53,267,4650,Implementing a cybersecurity solution,,04-06-2023,06-07-2024,12,10,11,4,6,6,3,TRUE
+66166ec596fb1df606179f54,298,2960,Analyzing data,,04-06-2023,07-07-2024,7,10,11,7,8,7,10,FALSE
+66166ec596fb1df606179f55,451,5630,technical support,vestibulum proin eu mi nulla,05-06-2023,13-07-2024,8,5,10,4,3,4,9,TRUE
+66166ec596fb1df606179f56,77,6150,Troubleshooting network connectivity issues,,07-06-2023,16-07-2024,10,6,4,7,12,7,11,FALSE
+66166ec596fb1df606179f57,428,4970,Documenting software requirements,vestibulum quam sapien varius ut,12-06-2023,18-07-2024,9,3,3,5,11,6,8,TRUE
+66166ec596fb1df606179f58,130,1640,Training employees on a new software system,donec diam neque vestibulum eget,13-06-2023,20-07-2024,11,7,9,9,10,3,8,FALSE
+66166ec596fb1df606179f59,368,2160,Setting up a project management tool,,18-06-2023,22-07-2024,3,4,12,7,4,8,4,FALSE
+66166ec596fb1df606179f5a,178,2390,Implementing a cybersecurity solution,,18-06-2023,22-07-2024,6,11,3,4,11,7,11,FALSE
+66166ec596fb1df606179f5b,481,1420,Optimizing database performance,eleifend luctus ultricies eu nibh quisque id justo sit amet,22-06-2023,25-07-2024,9,3,9,12,9,4,4,FALSE
+66166ec596fb1df606179f5c,7,5970,Training employees on a new software system,,22-06-2023,28-07-2024,11,3,5,7,3,3,8,TRUE
+66166ec596fb1df606179f5d,489,5091,Integrating third-party APIs,,23-06-2023,30-07-2024,4,6,7,11,11,3,7,TRUE
+66166ec596fb1df606179f5e,155,2940,Implementing a cybersecurity solution,sapien varius ut blandit non interdum in,25-06-2023,01-08-2024,11,9,5,6,5,3,9,FALSE
+66166ec596fb1df606179f5f,480,1520,Collaborating with cross-functional teams,,26-06-2023,06-08-2024,9,10,8,5,3,8,5,TRUE
+66166ec596fb1df606179f60,409,5031,Performing code reviews,,30-06-2023,07-08-2024,8,8,9,9,9,10,6,FALSE
+66166ec596fb1df606179f61,462,5960,Automating repetitive tasks,,02-07-2023,09-08-2024,12,3,8,11,11,3,5,TRUE
+66166ec596fb1df606179f62,30,5140,Creating a mobile app prototype,convallis tortor risus dapibus augue vel,02-07-2023,10-08-2024,9,9,10,10,8,7,8,FALSE
+66166ec596fb1df606179f63,288,1032,Troubleshooting network connectivity issues,,03-07-2023,11-08-2024,8,6,11,3,3,9,6,TRUE
+66166ec596fb1df606179f64,147,6780,Conducting a network security audit,augue luctus tincidunt nulla mollis molestie,05-07-2023,17-08-2024,5,8,5,9,4,5,11,TRUE
+66166ec596fb1df606179f65,381,4950,Testing a website,,07-07-2023,20-08-2024,4,9,3,6,5,5,12,FALSE
+66166ec596fb1df606179f66,461,1430,Configuring virtual machines,,07-07-2023,23-08-2024,11,9,12,5,10,10,11,FALSE
+66166ec596fb1df606179f67,229,1602,Designing a user interface,,14-07-2023,25-08-2024,8,11,10,6,3,7,8,TRUE
+66166ec596fb1df606179f68,279,2170,Migrating data to a new server,,15-07-2023,31-08-2024,8,7,10,9,10,7,9,FALSE
+66166ec596fb1df606179f69,344,2350,Collaborating with cross-functional teams,lobortis sapien sapien non mi integer,15-07-2023,03-09-2024,7,4,11,10,6,8,12,FALSE
+66166ec596fb1df606179f6a,220,7728,Configuring virtual machines,tempor turpis nec euismod scelerisque quam,15-07-2023,03-09-2024,6,9,7,10,11,12,10,TRUE
+66166ec596fb1df606179f6b,73,4620,Collaborating with cross-functional teams,parturient montes nascetur ridiculus mus,23-07-2023,08-09-2024,3,11,4,4,9,5,9,TRUE
+66166ec596fb1df606179f6c,134,7543,Creating a mobile app prototype,amet nulla quisque arcu libero,27-07-2023,10-09-2024,7,12,7,10,11,3,6,FALSE
+66166ec596fb1df606179f6d,241,1790,Automating repetitive tasks,,30-07-2023,15-09-2024,5,8,5,12,10,8,5,FALSE
+66166ec696fb1df606179f6e,227,1930,Documenting software requirements,,31-07-2023,18-09-2024,5,7,3,9,4,4,4,FALSE
+66166ec696fb1df606179f6f,293,2950,Conducting a network security audit,,31-07-2023,20-09-2024,9,9,3,8,8,5,3,TRUE
+66166ec696fb1df606179f70,238,1980,Migrating data to a new server,,02-08-2023,21-09-2024,3,7,9,7,3,6,3,TRUE
+66166ec696fb1df606179f71,30,4801,Collaborating with cross-functional teams,,03-08-2023,21-09-2024,4,8,11,5,6,12,3,FALSE
+66166ec696fb1df606179f72,384,4701,Analyzing data,,04-08-2023,29-09-2024,9,12,6,5,11,11,8,TRUE
+66166ec696fb1df606179f73,40,7021,Deploying a cloud-based solution,ante vel ipsum praesent blandit lacinia erat vestibulum sed magna,06-08-2023,30-09-2024,8,8,8,8,9,10,7,TRUE
+66166ec696fb1df606179f74,70,6420,Setting up a project management tool,lobortis vel dapibus at diam,11-08-2023,01-10-2024,3,4,4,4,5,5,3,TRUE
+66166ec696fb1df606179f75,478,5670,Documenting software requirements,,14-08-2023,03-10-2024,9,4,11,8,12,12,11,FALSE
+66166ec696fb1df606179f76,124,5690,Conducting a network security audit,,14-08-2023,04-10-2024,3,5,11,4,3,10,3,FALSE
+66166ec696fb1df606179f77,407,1820,Optimizing database performance,,15-08-2023,15-10-2024,10,10,10,6,3,4,9,TRUE
+66166ec696fb1df606179f78,197,4350,Training employees on a new software system,in lectus pellentesque at nulla suspendisse potenti cras in,17-08-2023,18-10-2024,8,7,8,7,3,12,5,FALSE
+66166ec696fb1df606179f79,278,5071,Implementing a cybersecurity solution,,25-08-2023,18-10-2024,12,11,8,10,4,5,3,TRUE
+66166ec696fb1df606179f7a,474,7450,Migrating data to a new server,massa tempor convallis nulla neque,27-08-2023,28-10-2024,10,11,6,5,6,4,9,TRUE
+66166ec696fb1df606179f7b,341,7582,Creating a mobile app prototype,,27-08-2023,30-10-2024,9,3,4,3,7,7,7,TRUE
+66166ec696fb1df606179f7c,497,2410,technical support,massa tempor convallis nulla neque libero convallis,28-08-2023,02-11-2024,8,3,5,9,11,5,8,TRUE
+66166ec696fb1df606179f7d,108,7291,Deploying a cloud-based solution,eros suspendisse accumsan tortor quis turpis sed ante vivamus,29-08-2023,03-11-2024,4,12,11,4,12,5,3,FALSE
+66166ec696fb1df606179f7e,1,4960,Deploying a cloud-based solution,,31-08-2023,08-11-2024,8,5,7,3,8,3,3,TRUE
+66166ec696fb1df606179f7f,189,5031,Creating a mobile app prototype,,03-09-2023,14-11-2024,8,9,8,12,12,6,6,TRUE
+66166ec696fb1df606179f80,124,2870,Designing a user interface,,04-09-2023,18-11-2024,9,12,4,6,6,8,8,FALSE
+66166ec696fb1df606179f81,496,7106,Creating a mobile app prototype,semper est quam pharetra magna ac consequat metus,05-09-2023,18-11-2024,3,5,4,4,4,8,3,FALSE
+66166ec696fb1df606179f82,341,1640,Testing a website,,09-09-2023,21-11-2024,4,9,7,6,7,12,10,FALSE
+66166ec696fb1df606179f83,213,2960,technical support,diam neque vestibulum eget vulputate ut ultrices,12-09-2023,22-11-2024,10,11,3,11,9,8,6,FALSE
+66166ec796fb1df606179f84,104,6320,Configuring virtual machines,,16-09-2023,26-11-2024,5,6,8,8,8,6,10,FALSE
+66166ec796fb1df606179f85,287,4280,Conducting a network security audit,,18-09-2023,29-11-2024,5,10,7,9,11,12,8,TRUE
+66166ec796fb1df606179f86,205,2401,Collaborating with cross-functional teams,in leo maecenas pulvinar lobortis,19-09-2023,01-12-2024,12,6,9,7,3,12,5,TRUE
+66166ec796fb1df606179f87,295,1032,technical support,,22-09-2023,01-12-2024,8,7,6,10,4,6,7,FALSE
+66166ec796fb1df606179f88,155,7199,Testing a website,,23-09-2023,01-12-2024,4,8,3,10,7,7,11,TRUE
+66166ec796fb1df606179f89,340,1680,Migrating data to a new server,non mauris morbi non lectus,24-09-2023,07-12-2024,6,12,11,4,6,4,5,FALSE
+66166ec796fb1df606179f8a,414,4560,Testing a website,platea dictumst etiam faucibus cursus urna ut tellus nulla ut,27-09-2023,09-12-2024,10,5,4,9,12,11,5,TRUE
+66166ec796fb1df606179f8b,352,6350,Analyzing data,,03-10-2023,11-12-2024,4,9,8,5,3,4,6,TRUE
+66166ec796fb1df606179f8c,27,1960,Deploying a cloud-based solution,,04-10-2023,11-12-2024,10,4,4,4,9,11,7,TRUE
+66166ec796fb1df606179f8d,262,1430,Documenting software requirements,ac nibh fusce lacus purus aliquet at,06-10-2023,13-12-2024,12,9,10,9,3,11,5,TRUE
+66166ec796fb1df606179f8e,157,1690,Optimizing database performance,,06-10-2023,22-12-2024,11,3,5,10,6,11,8,TRUE
+66166ec796fb1df606179f8f,485,6870,Automating repetitive tasks,,07-10-2023,28-12-2024,12,9,3,8,9,7,7,TRUE
+66166ec796fb1df606179f90,191,2830,Integrating third-party APIs,nullam porttitor lacus at turpis donec posuere metus vitae ipsum,09-10-2023,29-12-2024,10,11,9,11,5,12,3,TRUE
+66166ec796fb1df606179f91,110,6370,Collaborating with cross-functional teams,,14-10-2023,03-01-2025,10,10,7,11,4,7,6,TRUE
+66166ec796fb1df606179f92,47,3920,technical support,dolor vel est donec odio justo sollicitudin ut suscipit,15-10-2023,07-01-2025,7,4,7,7,11,10,8,FALSE
+66166ec796fb1df606179f93,119,7012,Performing code reviews,,18-10-2023,08-01-2025,8,11,10,11,4,11,11,FALSE
+66166ec796fb1df606179f94,192,7662,Performing code reviews,aliquam sit amet diam in magna bibendum,20-10-2023,10-01-2025,7,6,11,5,11,3,7,FALSE
+66166ec796fb1df606179f95,312,6501,Optimizing database performance,,22-10-2023,18-01-2025,3,12,5,5,11,3,12,FALSE
+66166ec896fb1df606179f96,229,3901,Implementing a cybersecurity solution,,31-10-2023,21-01-2025,4,12,8,8,4,11,7,FALSE
+66166ec896fb1df606179f97,91,4960,Implementing a cybersecurity solution,,02-11-2023,26-01-2025,9,9,12,8,10,3,3,FALSE
+66166ec896fb1df606179f98,458,2701,Training employees on a new software system,,02-11-2023,28-01-2025,6,3,8,5,12,9,3,FALSE
+66166ec896fb1df606179f99,103,2970,Conducting a network security audit,in quam fringilla rhoncus mauris enim leo rhoncus,05-11-2023,30-01-2025,8,7,10,8,3,6,5,TRUE
+66166ec896fb1df606179f9a,153,7371,Migrating data to a new server,augue aliquam erat volutpat in congue etiam,09-11-2023,05-02-2025,5,11,3,11,11,12,8,FALSE
+66166ec896fb1df606179f9b,62,1702,Optimizing database performance,,17-11-2023,11-02-2025,7,12,4,12,3,5,11,TRUE
+66166ec896fb1df606179f9c,190,6071,Performing code reviews,,23-11-2023,13-02-2025,3,10,3,5,3,5,5,TRUE
+66166ec896fb1df606179f9d,200,7146,Developing a new software,ut ultrices vel augue vestibulum ante ipsum,23-11-2023,17-02-2025,9,9,3,9,8,4,12,TRUE
+66166ec896fb1df606179f9e,295,6830,Integrating third-party APIs,,24-11-2023,18-02-2025,10,6,9,5,12,8,9,TRUE
+66166ec896fb1df606179f9f,82,7609,Training employees on a new software system,luctus cum sociis natoque penatibus et magnis dis,26-11-2023,23-02-2025,3,6,5,12,10,6,8,FALSE
+66166ec896fb1df606179fa0,215,7080,Optimizing database performance,tempor turpis nec euismod scelerisque quam turpis adipiscing lorem,02-12-2023,23-02-2025,3,8,12,5,4,3,9,TRUE
+66166ec896fb1df606179fa1,416,6480,Implementing a cybersecurity solution,,05-12-2023,26-02-2025,9,7,8,12,9,8,12,FALSE
+66166ec896fb1df606179fa2,326,6250,Documenting software requirements,,17-12-2023,02-03-2025,7,6,8,5,4,4,9,FALSE
+66166ec896fb1df606179fa3,49,5390,Configuring virtual machines,mauris ullamcorper purus sit amet nulla,17-12-2023,13-03-2025,4,7,4,11,4,3,11,TRUE
+66166ec896fb1df606179fa4,198,5021,Creating a mobile app prototype,,23-12-2023,13-03-2025,8,10,5,11,12,5,3,TRUE
+66166ec896fb1df606179fa5,186,2081,Migrating data to a new server,,28-12-2023,14-03-2025,8,10,12,4,11,3,12,FALSE
+66166ec896fb1df606179fa6,402,1650,Implementing a cybersecurity solution,odio porttitor id consequat in consequat ut nulla sed,31-12-2023,15-03-2025,3,6,9,5,3,5,12,FALSE
+66166ec896fb1df606179fa7,248,4590,Migrating data to a new server,,31-12-2023,20-03-2025,12,10,5,10,7,6,5,FALSE
+66166ec896fb1df606179fa8,280,2910,Troubleshooting network connectivity issues,,09-01-2024,20-03-2025,6,5,3,3,8,9,6,FALSE
+66166ec896fb1df606179fa9,158,6102,Conducting a network security audit,,13-01-2024,23-03-2025,4,9,6,9,10,11,8,FALSE
+66166ec896fb1df606179faa,318,4250,Training employees on a new software system,lacinia eget tincidunt eget tempus vel pede morbi porttitor,13-01-2024,24-03-2025,3,7,6,9,5,7,3,TRUE
+66166ec896fb1df606179fab,451,5320,Setting up a project management tool,,19-01-2024,24-03-2025,3,6,7,6,4,10,7,FALSE
+66166ec896fb1df606179fac,409,5640,Performing code reviews,eu felis fusce posuere felis,19-01-2024,25-03-2025,9,11,12,11,5,12,6,TRUE
+66166ec896fb1df606179fad,278,2690,Implementing a cybersecurity solution,venenatis lacinia aenean sit amet,21-01-2024,26-03-2025,11,5,3,10,7,6,4,TRUE
+66166ec896fb1df606179fae,297,2460,Collaborating with cross-functional teams,,23-01-2024,29-03-2025,3,12,12,3,8,8,7,TRUE
+66166ec896fb1df606179faf,250,6490,Analyzing data,,24-01-2024,31-03-2025,5,7,7,7,10,3,7,FALSE
+66166ec896fb1df606179fb0,218,2790,technical support,non quam nec dui luctus rutrum nulla tellus in sagittis,25-01-2024,03-04-2025,8,9,7,6,7,6,5,FALSE
+66166ec896fb1df606179fb1,69,6780,Migrating data to a new server,,29-01-2024,05-04-2025,8,3,9,12,12,4,12,FALSE
+66166ec896fb1df606179fb2,115,2190,Configuring virtual machines,,30-01-2024,05-04-2025,4,7,10,3,5,3,11,FALSE
+66166ec896fb1df606179fb3,199,7582,Troubleshooting network connectivity issues,,31-01-2024,11-04-2025,10,6,3,4,5,6,5,TRUE
+66166ec896fb1df606179fb4,368,6390,Collaborating with cross-functional teams,,02-02-2024,11-04-2025,3,12,6,9,10,4,8,FALSE
+66166ec896fb1df606179fb5,462,1370,Implementing a cybersecurity solution,,03-02-2024,12-04-2025,10,10,12,8,12,3,9,TRUE
+66166ec896fb1df606179fb6,485,2760,Conducting a network security audit,duis at velit eu est congue,11-02-2024,15-04-2025,7,3,8,12,7,4,5,TRUE
+66166ec996fb1df606179fb7,500,7291,Migrating data to a new server,,12-02-2024,15-04-2025,10,6,5,3,9,10,9,FALSE
+66166ec996fb1df606179fb8,193,7039,Analyzing data,,14-02-2024,17-04-2025,5,10,10,5,7,4,12,FALSE
+66166ec996fb1df606179fb9,435,1630,Optimizing database performance,platea dictumst maecenas ut massa,15-02-2024,18-04-2025,9,4,12,10,8,3,11,FALSE
+66166ec996fb1df606179fba,100,1690,Setting up a project management tool,,16-02-2024,21-04-2025,4,11,12,5,3,5,5,TRUE
+66166ec996fb1df606179fbb,103,5980,Collaborating with cross-functional teams,,16-02-2024,21-04-2025,9,6,11,7,12,7,7,TRUE
+66166ec996fb1df606179fbc,257,4360,Testing a website,molestie sed justo pellentesque viverra pede,19-02-2024,22-04-2025,3,12,9,9,12,12,9,FALSE
+66166ec996fb1df606179fbd,232,2130,Conducting a network security audit,risus dapibus augue vel accumsan tellus,23-02-2024,22-04-2025,3,8,8,11,9,7,11,FALSE
+66166ec996fb1df606179fbe,413,6041,Implementing a cybersecurity solution,hac habitasse platea dictumst morbi vestibulum velit id,24-02-2024,26-04-2025,4,9,6,9,8,3,10,FALSE
+66166ec996fb1df606179fbf,116,2901,Analyzing data,,24-02-2024,27-04-2025,10,11,4,5,10,12,12,TRUE
+66166ec996fb1df606179fc0,213,2610,Automating repetitive tasks,,26-02-2024,04-05-2025,4,3,10,7,3,7,7,TRUE
+66166ec996fb1df606179fc1,497,6021,Implementing a cybersecurity solution,,29-02-2024,16-05-2025,10,11,10,11,6,9,6,TRUE
+66166ec996fb1df606179fc2,222,4570,Implementing a cybersecurity solution,,01-03-2024,22-05-2025,9,8,4,8,11,10,10,FALSE
+66166ec996fb1df606179fc3,451,6081,Developing a new software,ipsum ac tellus semper interdum,03-03-2024,24-05-2025,9,11,3,3,11,12,3,FALSE
+66166ec996fb1df606179fc4,377,2013,Conducting a network security audit,,08-03-2024,26-05-2025,12,10,4,6,5,11,5,TRUE
+66166ec996fb1df606179fc5,37,2540,Testing a website,,25-03-2024,26-05-2025,12,8,3,9,8,4,10,FALSE
+66166ec996fb1df606179fc6,417,5970,Migrating data to a new server,,27-03-2024,27-05-2025,3,6,6,11,10,3,8,TRUE
+66166ec996fb1df606179fc7,20,1402,Collaborating with cross-functional teams,semper interdum mauris ullamcorper purus sit amet nulla quisque arcu,02-04-2024,27-05-2025,7,10,12,4,9,11,5,FALSE
+66166ec996fb1df606179fc8,465,7397,Developing a new software,,04-04-2024,02-06-2025,7,7,5,5,4,5,7,FALSE
+66166ec996fb1df606179fc9,39,4810,Integrating third-party APIs,,06-04-2024,03-06-2025,10,4,8,4,12,8,11,TRUE
+66166ec996fb1df606179fca,91,2730,Setting up a project management tool,vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis,06-04-2024,05-06-2025,6,11,4,6,8,12,7,TRUE
+66166ec996fb1df606179fcb,180,6201,Integrating third-party APIs,,06-04-2024,06-06-2025,3,11,7,8,10,6,11,TRUE
+66166ec996fb1df606179fcc,63,6980,Training employees on a new software system,pede morbi porttitor lorem id ligula suspendisse ornare consequat,20-04-2024,16-06-2025,11,12,10,8,3,12,12,FALSE
+66166ec996fb1df606179fcd,467,4390,Training employees on a new software system,,20-04-2024,19-06-2025,11,11,12,5,4,6,7,TRUE
+66166ec996fb1df606179fce,360,5420,Deploying a cloud-based solution,,24-04-2024,19-06-2025,7,5,3,11,7,5,8,FALSE
+66166ec996fb1df606179fcf,132,2540,Creating a mobile app prototype,,27-04-2024,21-06-2025,3,6,10,11,10,4,6,TRUE
+66166ec996fb1df606179fd0,166,4610,Optimizing database performance,vestibulum rutrum rutrum neque aenean,29-04-2024,23-06-2025,11,7,8,7,12,8,11,TRUE
+66166ec996fb1df606179fd1,427,4250,Designing a user interface,,29-04-2024,24-06-2025,3,12,5,8,11,11,4,FALSE
+66166ec996fb1df606179fd2,205,2560,Developing a new software,,30-04-2024,03-07-2025,10,11,10,3,7,8,6,FALSE
+66166ec996fb1df606179fd3,126,6390,Troubleshooting network connectivity issues,,02-05-2024,05-07-2025,6,5,3,9,10,5,7,FALSE
+66166ec996fb1df606179fd4,171,2690,Optimizing database performance,,03-05-2024,16-07-2025,9,12,5,9,12,4,5,FALSE
+66166ec996fb1df606179fd5,211,1902,Collaborating with cross-functional teams,quis lectus suspendisse potenti in eleifend quam a odio in,06-05-2024,19-07-2025,8,4,3,11,8,12,6,TRUE
+66166ec996fb1df606179fd6,447,2690,Troubleshooting network connectivity issues,eu est congue elementum in hac habitasse platea,07-05-2024,24-07-2025,5,4,8,10,6,12,5,TRUE
+66166ec996fb1df606179fd7,91,4250,Analyzing data,proin risus praesent lectus vestibulum quam sapien varius ut blandit,10-05-2024,26-07-2025,4,11,9,7,12,7,7,TRUE
+66166ec996fb1df606179fd8,241,5470,Deploying a cloud-based solution,,11-05-2024,27-07-2025,5,11,12,5,7,10,6,TRUE
+66166eca96fb1df606179fd9,202,6910,Designing a user interface,,12-05-2024,31-07-2025,11,3,10,5,3,5,3,FALSE
+66166eca96fb1df606179fda,349,1890,Performing code reviews,,13-05-2024,03-08-2025,12,11,9,6,12,8,6,FALSE
+66166eca96fb1df606179fdb,202,6290,Developing a new software,,14-05-2024,06-08-2025,9,12,11,12,8,10,10,TRUE
+66166eca96fb1df606179fdc,412,4201,Developing a new software,,22-05-2024,14-08-2025,3,5,5,4,3,4,11,FALSE
+66166eca96fb1df606179fdd,490,6810,Training employees on a new software system,lectus aliquam sit amet diam in,22-05-2024,14-08-2025,12,6,9,7,4,9,7,TRUE
+66166eca96fb1df606179fde,220,2710,Optimizing database performance,,23-05-2024,16-08-2025,12,10,12,10,7,8,3,FALSE
+66166eca96fb1df606179fdf,31,5230,Documenting software requirements,pretium iaculis diam erat fermentum justo nec condimentum,23-05-2024,17-08-2025,4,4,12,3,3,6,8,TRUE
+66166eca96fb1df606179fe0,154,2560,Creating a mobile app prototype,accumsan odio curabitur convallis duis,25-05-2024,19-08-2025,3,5,6,12,4,9,10,FALSE
+66166eca96fb1df606179fe1,462,2910,Migrating data to a new server,,26-05-2024,20-08-2025,10,12,6,6,12,12,3,TRUE
+66166eca96fb1df606179fe2,478,2350,Analyzing data,ipsum primis in faucibus orci luctus et,27-05-2024,29-08-2025,11,6,8,7,3,4,6,TRUE
+66166eca96fb1df606179fe3,297,4970,Implementing a cybersecurity solution,,31-05-2024,06-09-2025,5,5,11,4,11,9,7,TRUE
+66166eca96fb1df606179fe4,164,2031,Automating repetitive tasks,nulla nunc purus phasellus in felis donec semper,31-05-2024,07-09-2025,11,4,8,12,5,8,8,FALSE
+66166eca96fb1df606179fe5,444,7410,Conducting a network security audit,nulla tempus vivamus in felis eu sapien,01-06-2024,09-09-2025,6,11,5,3,8,9,7,TRUE
+66166eca96fb1df606179fe6,202,7252,Migrating data to a new server,eu felis fusce posuere felis sed lacus,01-06-2024,14-09-2025,11,11,6,10,6,7,5,TRUE
+66166eca96fb1df606179fe7,445,6480,Developing a new software,erat volutpat in congue etiam justo etiam,01-06-2024,16-09-2025,10,8,5,7,10,9,6,TRUE
+66166eca96fb1df606179fe8,300,4910,Developing a new software,potenti cras in purus eu magna vulputate luctus cum,05-06-2024,17-09-2025,4,8,7,11,11,4,9,TRUE
+66166eca96fb1df606179fe9,443,1790,Creating a mobile app prototype,,06-06-2024,19-09-2025,11,3,6,3,3,8,6,FALSE
+66166eca96fb1df606179fea,422,1360,Configuring virtual machines,vel dapibus at diam nam tristique tortor,06-06-2024,21-09-2025,8,6,3,4,12,8,3,TRUE
+66166eca96fb1df606179feb,485,2560,Automating repetitive tasks,,06-06-2024,22-09-2025,9,6,10,4,3,8,11,TRUE
+66166eca96fb1df606179fec,282,5370,Automating repetitive tasks,,09-06-2024,23-09-2025,11,11,4,5,7,10,8,TRUE
+66166eca96fb1df606179fed,314,6410,Performing code reviews,,13-06-2024,28-09-2025,9,6,3,11,3,3,4,FALSE
+66166eca96fb1df606179fee,423,7021,Testing a website,rhoncus sed vestibulum sit amet cursus id,17-06-2024,02-10-2025,11,6,7,8,10,5,11,FALSE
+66166eca96fb1df606179fef,159,5180,Configuring virtual machines,,19-06-2024,04-10-2025,5,6,6,11,3,10,9,TRUE
+66166eca96fb1df606179ff0,102,6780,technical support,,21-06-2024,08-10-2025,3,10,12,12,5,10,8,FALSE
+66166eca96fb1df606179ff1,268,4021,Integrating third-party APIs,,22-06-2024,10-10-2025,4,10,11,4,4,6,5,FALSE
+66166eca96fb1df606179ff2,477,2061,Designing a user interface,vel est donec odio justo sollicitudin ut,26-06-2024,12-10-2025,4,4,11,7,12,7,10,FALSE
+66166eca96fb1df606179ff3,492,5960,Designing a user interface,vitae nisl aenean lectus pellentesque eget nunc,27-06-2024,15-10-2025,11,10,9,4,12,12,5,TRUE
+66166eca96fb1df606179ff4,92,4370,Implementing a cybersecurity solution,,06-07-2024,16-10-2025,6,8,5,5,5,9,10,TRUE
+66166eca96fb1df606179ff5,65,5670,Optimizing database performance,,06-07-2024,17-10-2025,6,4,5,8,3,5,10,FALSE
+66166eca96fb1df606179ff6,338,5420,Configuring virtual machines,,07-07-2024,22-10-2025,6,12,8,6,8,7,5,FALSE
+66166eca96fb1df606179ff7,105,6240,Performing code reviews,,07-07-2024,25-10-2025,7,8,4,7,6,8,8,TRUE
+66166eca96fb1df606179ff8,96,1720,Designing a user interface,imperdiet sapien urna pretium nisl ut volutpat sapien arcu,08-07-2024,29-10-2025,4,8,4,7,8,10,11,TRUE
+66166ecb96fb1df606179ff9,421,2580,Automating repetitive tasks,,12-07-2024,30-10-2025,10,5,4,8,4,3,4,FALSE
+66166ecb96fb1df606179ffa,371,4051,Optimizing database performance,,14-07-2024,01-11-2025,10,6,8,12,7,10,3,TRUE
+66166ecb96fb1df606179ffb,496,2760,Optimizing database performance,,14-07-2024,02-11-2025,11,7,10,9,6,7,4,TRUE
+66166ecb96fb1df606179ffc,1,5320,Performing code reviews,amet lobortis sapien sapien non,18-07-2024,04-11-2025,4,11,11,10,10,11,9,TRUE
+66166ecb96fb1df606179ffd,448,1530,Training employees on a new software system,interdum eu tincidunt in leo maecenas,19-07-2024,05-11-2025,9,6,3,12,3,11,5,FALSE
+66166ecb96fb1df606179ffe,302,7767,Integrating third-party APIs,,19-07-2024,12-11-2025,4,9,4,9,9,6,10,TRUE
+66166ecb96fb1df606179fff,132,4860,Integrating third-party APIs,,22-07-2024,14-11-2025,10,11,7,6,9,8,10,FALSE
+66166ecb96fb1df60617a000,402,1940,Troubleshooting network connectivity issues,,22-07-2024,21-11-2025,11,9,5,9,3,6,8,FALSE
+66166ecb96fb1df60617a001,297,5270,Automating repetitive tasks,magna ac consequat metus sapien,26-07-2024,21-11-2025,9,9,8,3,12,7,5,FALSE
+66166ecb96fb1df60617a002,11,2850,Designing a user interface,sapien urna pretium nisl ut volutpat sapien arcu sed augue,30-07-2024,27-11-2025,12,9,8,6,12,10,6,TRUE
+66166ecb96fb1df60617a003,331,2590,Creating a mobile app prototype,,03-08-2024,27-11-2025,12,7,5,4,6,6,3,FALSE
+66166ecb96fb1df60617a004,356,6401,Testing a website,,10-08-2024,30-11-2025,7,12,7,8,11,7,5,TRUE
+66166ecb96fb1df60617a005,68,1052,Documenting software requirements,,11-08-2024,01-12-2025,7,5,10,4,3,5,6,FALSE
+66166ecb96fb1df60617a006,8,7701,Setting up a project management tool,sed tristique in tempus sit,12-08-2024,01-12-2025,8,12,11,11,12,5,5,FALSE
+66166ecb96fb1df60617a007,377,4701,Conducting a network security audit,,12-08-2024,05-12-2025,5,4,7,3,8,8,5,FALSE
+66166ecb96fb1df60617a008,135,7662,Analyzing data,,14-08-2024,06-12-2025,11,7,11,8,10,8,3,FALSE
+66166ecb96fb1df60617a009,216,2430,Testing a website,primis in faucibus orci luctus et,16-08-2024,08-12-2025,4,11,6,9,12,4,6,TRUE
+66166ecb96fb1df60617a00a,269,1650,Troubleshooting network connectivity issues,,17-08-2024,08-12-2025,7,3,3,5,4,6,5,TRUE
+66166ecb96fb1df60617a00b,251,1920,Optimizing database performance,,22-08-2024,10-12-2025,7,9,8,9,10,11,5,FALSE
+66166ecb96fb1df60617a00c,276,7807,Migrating data to a new server,quisque ut erat curabitur gravida nisi,26-08-2024,14-12-2025,10,7,11,3,8,12,10,FALSE
+66166ecb96fb1df60617a00d,337,4301,Developing a new software,,28-08-2024,16-12-2025,7,11,12,8,7,4,8,TRUE
+66166ecb96fb1df60617a00e,449,4130,Automating repetitive tasks,lectus vestibulum quam sapien varius ut blandit non,28-08-2024,17-12-2025,12,5,8,8,3,12,6,TRUE
+66166ecb96fb1df60617a00f,495,2970,Documenting software requirements,nisi vulputate nonummy maecenas tincidunt,30-08-2024,18-12-2025,7,8,8,9,10,6,3,TRUE
+66166ecb96fb1df60617a010,113,7463,Automating repetitive tasks,donec dapibus duis at velit eu est,01-09-2024,20-12-2025,4,7,8,12,7,11,12,FALSE
+66166ecb96fb1df60617a011,28,5960,Training employees on a new software system,,04-09-2024,20-12-2025,10,3,5,11,12,11,8,TRUE
+66166ecb96fb1df60617a012,236,7794,Optimizing database performance,non mi integer ac neque,07-09-2024,29-12-2025,3,10,10,9,10,5,8,FALSE
+66166ecb96fb1df60617a013,301,4230,Conducting a network security audit,amet lobortis sapien sapien non mi integer ac neque duis,07-09-2024,31-12-2025,12,7,10,5,11,12,6,FALSE
+66166ecb96fb1df60617a014,375,1702,Setting up a project management tool,in sapien iaculis congue vivamus metus arcu adipiscing,10-09-2024,06-01-2026,3,6,5,10,9,11,6,TRUE
+66166ecb96fb1df60617a015,110,4870,Configuring virtual machines,,10-09-2024,11-01-2026,11,3,4,8,6,11,9,TRUE
+66166ecb96fb1df60617a016,148,6091,Automating repetitive tasks,eros elementum pellentesque quisque porta volutpat,11-09-2024,11-01-2026,11,3,3,10,3,10,6,TRUE
+66166ecb96fb1df60617a017,100,2801,Automating repetitive tasks,,12-09-2024,13-01-2026,5,6,12,12,5,6,4,TRUE
+66166ecb96fb1df60617a018,53,7318,Conducting a network security audit,ut dolor morbi vel lectus in quam fringilla rhoncus mauris,15-09-2024,15-01-2026,4,9,8,6,10,9,3,TRUE
+66166ecc96fb1df60617a019,372,6170,Migrating data to a new server,,22-09-2024,16-01-2026,10,8,6,11,4,5,3,TRUE
+66166ecc96fb1df60617a01a,27,5091,Training employees on a new software system,,25-09-2024,20-01-2026,11,9,8,10,8,12,7,FALSE
+66166ecc96fb1df60617a01b,275,2950,Troubleshooting network connectivity issues,,26-09-2024,21-01-2026,3,8,8,9,7,10,4,TRUE
+66166ecc96fb1df60617a01c,37,7358,Creating a mobile app prototype,,27-09-2024,21-01-2026,11,12,3,11,11,9,8,TRUE
+66166ecc96fb1df60617a01d,217,1560,Integrating third-party APIs,,28-09-2024,21-01-2026,7,11,6,10,10,3,8,TRUE
+66166ecc96fb1df60617a01e,24,7172,Performing code reviews,,01-10-2024,22-01-2026,5,7,10,5,10,5,3,FALSE
+66166ecc96fb1df60617a01f,430,2630,Documenting software requirements,,05-10-2024,26-01-2026,3,6,7,6,7,4,8,TRUE
+66166ecc96fb1df60617a020,394,4071,Training employees on a new software system,interdum mauris ullamcorper purus sit amet,05-10-2024,28-01-2026,9,6,11,6,6,9,11,TRUE
+66166ecc96fb1df60617a021,401,7662,Performing code reviews,,11-10-2024,01-02-2026,10,4,8,4,12,9,12,TRUE
+66166ecc96fb1df60617a022,250,6081,technical support,,16-10-2024,03-02-2026,11,8,11,3,5,10,6,FALSE
+66166ecc96fb1df60617a023,417,7031,Integrating third-party APIs,,19-10-2024,06-02-2026,11,8,4,4,4,5,9,TRUE
+66166ecc96fb1df60617a024,418,5170,Integrating third-party APIs,,20-10-2024,07-02-2026,6,8,6,7,5,5,5,FALSE
+66166ecc96fb1df60617a025,55,1490,Performing code reviews,,26-10-2024,09-02-2026,10,7,9,12,3,6,4,TRUE
+66166ecc96fb1df60617a026,122,2160,Designing a user interface,sapien iaculis congue vivamus metus,26-10-2024,13-02-2026,4,3,5,9,7,9,5,FALSE
+66166ecc96fb1df60617a027,424,6310,Conducting a network security audit,,31-10-2024,13-02-2026,10,6,7,12,5,11,5,TRUE
+66166ecc96fb1df60617a028,367,5380,Automating repetitive tasks,,01-11-2024,13-02-2026,3,3,10,9,11,4,11,FALSE
+66166ecc96fb1df60617a029,296,2860,Creating a mobile app prototype,,06-11-2024,15-02-2026,8,7,9,4,7,7,9,FALSE
+66166ecc96fb1df60617a02a,209,7582,Analyzing data,a suscipit nulla elit ac nulla sed vel,06-11-2024,17-02-2026,11,4,6,4,8,9,12,TRUE
+66166ecc96fb1df60617a02b,13,4790,Analyzing data,,07-11-2024,20-02-2026,7,6,6,3,8,10,7,FALSE
+66166ecc96fb1df60617a02c,182,6230,Configuring virtual machines,scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula,10-11-2024,21-02-2026,3,10,10,12,3,7,8,FALSE
+66166ecc96fb1df60617a02d,385,4021,Deploying a cloud-based solution,fusce posuere felis sed lacus morbi sem mauris laoreet ut,11-11-2024,23-02-2026,12,12,6,3,5,11,10,FALSE
+66166ecc96fb1df60617a02e,231,7252,Setting up a project management tool,,11-11-2024,25-02-2026,12,8,7,9,7,4,7,FALSE
+66166ecc96fb1df60617a02f,463,2760,Performing code reviews,,13-11-2024,26-02-2026,3,3,9,4,5,7,4,FALSE
+66166ecc96fb1df60617a030,353,6290,Migrating data to a new server,,13-11-2024,28-02-2026,3,6,11,12,3,4,11,TRUE
+66166ecc96fb1df60617a031,378,3940,Integrating third-party APIs,,17-11-2024,07-03-2026,6,5,4,7,4,7,4,FALSE
+66166ecc96fb1df60617a032,392,2670,Documenting software requirements,habitasse platea dictumst etiam faucibus,23-11-2024,09-03-2026,6,6,4,12,9,7,3,TRUE
+66166ecc96fb1df60617a033,160,7021,Deploying a cloud-based solution,,24-11-2024,12-03-2026,11,6,12,3,6,4,3,TRUE
+66166ecc96fb1df60617a034,1,5690,Deploying a cloud-based solution,sit amet erat nulla tempus vivamus in felis eu,24-11-2024,12-03-2026,5,3,6,4,3,3,11,FALSE
+66166ecc96fb1df60617a035,279,5102,Testing a website,natoque penatibus et magnis dis parturient montes,25-11-2024,17-03-2026,6,7,7,12,5,6,11,TRUE
+66166ecc96fb1df60617a036,210,4580,Developing a new software,curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin,25-11-2024,20-03-2026,10,9,11,7,8,10,7,TRUE
+66166ecd96fb1df60617a037,186,4120,Testing a website,,27-11-2024,21-03-2026,11,6,11,9,5,4,4,FALSE
+66166ecd96fb1df60617a038,219,1502,Troubleshooting network connectivity issues,,29-11-2024,24-03-2026,12,10,6,6,9,3,11,TRUE
+66166ecd96fb1df60617a039,204,1580,Documenting software requirements,,29-11-2024,27-03-2026,11,12,5,5,5,7,3,FALSE
+66166ecd96fb1df60617a03a,324,1690,Performing code reviews,,04-12-2024,27-03-2026,8,11,11,3,3,6,8,FALSE
+66166ecd96fb1df60617a03b,488,1790,Troubleshooting network connectivity issues,,04-12-2024,30-03-2026,9,7,7,3,9,5,3,FALSE
+66166ecd96fb1df60617a03c,4,2460,Integrating third-party APIs,,09-12-2024,03-04-2026,4,10,3,6,9,7,7,TRUE
+66166ecd96fb1df60617a03d,44,1970,Migrating data to a new server,,09-12-2024,14-04-2026,10,11,6,3,10,9,11,FALSE
+66166ecd96fb1df60617a03e,405,4790,Configuring virtual machines,,10-12-2024,18-05-2026,6,8,8,4,10,6,9,TRUE
+66166ecd96fb1df60617a03f,265,4980,Troubleshooting network connectivity issues,,17-12-2024,19-05-2026,8,5,4,12,5,3,7,FALSE
+66166ecd96fb1df60617a040,339,6830,Setting up a project management tool,,24-12-2024,24-05-2026,8,6,12,7,5,5,7,FALSE
+66166ecd96fb1df60617a041,223,2870,Training employees on a new software system,quis libero nullam sit amet turpis elementum ligula vehicula consequat,29-12-2024,25-05-2026,4,4,5,5,10,8,8,FALSE
+66166ecd96fb1df60617a042,195,4820,Deploying a cloud-based solution,,29-12-2024,01-06-2026,8,9,6,6,10,12,12,TRUE
+66166ecd96fb1df60617a043,260,6051,Performing code reviews,lorem ipsum dolor sit amet consectetuer adipiscing elit,06-01-2025,01-06-2026,3,11,11,9,12,9,12,TRUE
+66166ecd96fb1df60617a044,451,1420,Designing a user interface,,07-01-2025,05-06-2026,8,6,9,9,12,9,11,TRUE
+66166ecd96fb1df60617a045,168,5201,Testing a website,,11-01-2025,11-06-2026,7,9,7,3,4,7,7,FALSE
+66166ecd96fb1df60617a046,497,1360,Performing code reviews,sit amet consectetuer adipiscing elit proin risus praesent lectus,15-01-2025,13-06-2026,9,12,3,3,4,11,12,TRUE
+66166ecd96fb1df60617a047,249,5240,Implementing a cybersecurity solution,pede ac diam cras pellentesque volutpat,16-01-2025,13-06-2026,6,6,7,5,4,9,7,FALSE
+66166ecd96fb1df60617a048,380,2401,Collaborating with cross-functional teams,massa id nisl venenatis lacinia aenean sit amet justo,17-01-2025,16-06-2026,10,7,11,7,10,3,10,TRUE
+66166ecd96fb1df60617a049,45,5310,Automating repetitive tasks,in congue etiam justo etiam pretium iaculis,19-01-2025,19-06-2026,10,5,7,5,4,4,8,TRUE
+66166ecd96fb1df60617a04a,257,6830,Documenting software requirements,erat fermentum justo nec condimentum neque sapien placerat ante nulla,24-01-2025,21-06-2026,11,6,12,7,6,11,3,TRUE
+66166ecd96fb1df60617a04b,171,7041,Creating a mobile app prototype,faucibus orci luctus et ultrices posuere,26-01-2025,23-06-2026,3,4,11,6,6,9,6,TRUE
+66166ecd96fb1df60617a04c,424,2580,Automating repetitive tasks,,29-01-2025,24-06-2026,8,12,11,11,10,5,11,TRUE
+66166ecd96fb1df60617a04d,347,4102,Collaborating with cross-functional teams,,29-01-2025,24-06-2026,11,12,12,6,11,5,5,FALSE
+66166ecd96fb1df60617a04e,141,7556,Documenting software requirements,,29-01-2025,25-06-2026,10,9,8,4,6,10,10,FALSE
+66166ecd96fb1df60617a04f,324,4910,Implementing a cybersecurity solution,,30-01-2025,01-07-2026,3,4,3,9,10,3,5,FALSE
+66166ecd96fb1df60617a050,399,4120,Collaborating with cross-functional teams,,03-02-2025,04-07-2026,11,4,7,6,8,4,4,TRUE
+66166ecd96fb1df60617a051,56,6401,Migrating data to a new server,,03-02-2025,05-07-2026,12,9,6,4,3,10,6,TRUE
+66166ecd96fb1df60617a052,217,1750,Testing a website,,14-02-2025,07-07-2026,6,8,5,9,7,4,6,FALSE
+66166ecd96fb1df60617a053,35,7172,Troubleshooting network connectivity issues,,15-02-2025,10-07-2026,6,11,12,5,3,3,7,FALSE
+66166ecd96fb1df60617a054,447,6470,Automating repetitive tasks,,23-02-2025,11-07-2026,12,10,11,7,7,5,5,TRUE
+66166ecd96fb1df60617a055,393,1940,Documenting software requirements,,02-03-2025,11-07-2026,12,5,11,8,6,8,3,TRUE
+66166ecd96fb1df60617a056,277,4150,Migrating data to a new server,mi pede malesuada in imperdiet et commodo vulputate justo,03-03-2025,14-07-2026,9,5,3,8,9,12,9,FALSE
+66166ecd96fb1df60617a057,136,2730,Conducting a network security audit,,04-03-2025,19-07-2026,4,6,8,5,6,8,4,TRUE
+66166ece96fb1df60617a058,482,5380,Implementing a cybersecurity solution,,04-03-2025,22-07-2026,11,7,4,9,12,9,3,FALSE
+66166ece96fb1df60617a059,144,6380,Analyzing data,,08-03-2025,25-07-2026,6,9,10,11,5,5,4,TRUE
+66166ece96fb1df60617a05a,383,2760,Automating repetitive tasks,,12-03-2025,27-07-2026,8,9,11,5,8,8,3,TRUE
+66166ece96fb1df60617a05b,150,7754,Configuring virtual machines,,12-03-2025,27-07-2026,6,9,7,9,12,4,8,TRUE
+66166ece96fb1df60617a05c,7,1790,Automating repetitive tasks,,14-03-2025,31-07-2026,12,7,12,10,11,10,3,TRUE
+66166ece96fb1df60617a05d,355,2780,Automating repetitive tasks,,16-03-2025,31-07-2026,11,9,7,6,9,4,4,FALSE
+66166ece96fb1df60617a05e,370,6870,Training employees on a new software system,,16-03-2025,01-08-2026,4,9,8,12,8,12,5,TRUE
+66166ece96fb1df60617a05f,334,7305,Implementing a cybersecurity solution,,16-03-2025,05-08-2026,6,6,11,12,4,12,8,FALSE
+66166ece96fb1df60617a060,250,1960,Configuring virtual machines,,17-03-2025,12-08-2026,10,5,4,5,10,9,9,TRUE
+66166ece96fb1df60617a061,463,2670,Conducting a network security audit,mattis pulvinar nulla pede ullamcorper augue a suscipit nulla,19-03-2025,12-08-2026,4,10,3,4,6,5,9,FALSE
+66166ece96fb1df60617a062,94,5490,Configuring virtual machines,,22-03-2025,13-08-2026,11,8,3,9,9,10,8,TRUE
+66166ece96fb1df60617a063,136,1460,Implementing a cybersecurity solution,diam in magna bibendum imperdiet nullam,23-03-2025,21-08-2026,12,12,12,3,6,10,6,FALSE
+66166ece96fb1df60617a064,115,6370,Implementing a cybersecurity solution,,27-03-2025,23-08-2026,10,4,7,9,6,9,4,FALSE
+66166ece96fb1df60617a065,199,5610,Analyzing data,,28-03-2025,26-08-2026,9,10,9,3,7,4,7,FALSE
+66166ece96fb1df60617a066,52,4560,Automating repetitive tasks,,29-03-2025,29-08-2026,3,5,9,12,6,11,3,FALSE
+66166ece96fb1df60617a067,348,2540,Testing a website,,29-03-2025,30-08-2026,6,10,8,6,11,10,3,TRUE
+66166ece96fb1df60617a068,61,4970,Developing a new software,tellus nulla ut erat id mauris vulputate,30-03-2025,02-09-2026,5,4,5,3,12,6,11,TRUE
+66166ece96fb1df60617a069,414,6490,Developing a new software,,04-04-2025,03-09-2026,9,3,3,11,8,8,6,TRUE
+66166ece96fb1df60617a06a,209,2590,Developing a new software,,07-04-2025,04-09-2026,10,6,6,3,5,6,8,TRUE
+66166ece96fb1df60617a06b,459,3980,Analyzing data,ut dolor morbi vel lectus in quam fringilla,07-04-2025,05-09-2026,4,4,7,5,8,10,11,TRUE
+66166ece96fb1df60617a06c,231,4760,Designing a user interface,nibh quisque id justo sit amet sapien dignissim,08-04-2025,05-09-2026,12,6,3,9,6,11,4,FALSE
+66166ece96fb1df60617a06d,343,2170,Setting up a project management tool,justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla,10-04-2025,08-09-2026,10,12,7,4,4,5,8,TRUE
+66166ece96fb1df60617a06e,491,5160,Automating repetitive tasks,,11-04-2025,15-09-2026,6,12,10,11,8,12,11,TRUE
+66166ece96fb1df60617a06f,415,5380,Developing a new software,,11-04-2025,20-09-2026,3,7,6,10,11,5,6,TRUE
+66166ece96fb1df60617a070,187,7344,Optimizing database performance,,13-04-2025,22-09-2026,3,10,7,6,6,5,9,TRUE
+66166ece96fb1df60617a071,184,7688,Troubleshooting network connectivity issues,,16-04-2025,27-09-2026,4,9,6,5,11,4,9,FALSE
+66166ece96fb1df60617a072,277,6901,Deploying a cloud-based solution,,16-04-2025,28-09-2026,10,5,4,3,4,9,9,FALSE
+66166ece96fb1df60617a073,231,7635,Migrating data to a new server,,16-04-2025,29-09-2026,4,6,5,10,9,4,12,FALSE
+66166ece96fb1df60617a074,126,7767,Collaborating with cross-functional teams,,17-04-2025,30-09-2026,9,9,9,8,12,9,10,FALSE
+66166ece96fb1df60617a075,395,5210,Optimizing database performance,volutpat quam pede lobortis ligula sit amet,21-04-2025,02-10-2026,10,7,4,3,8,9,3,FALSE
+66166ece96fb1df60617a076,67,4021,Configuring virtual machines,faucibus orci luctus et ultrices posuere cubilia curae duis faucibus,22-04-2025,03-10-2026,8,8,9,11,12,12,3,FALSE
+66166ece96fb1df60617a077,489,7529,Implementing a cybersecurity solution,,24-04-2025,03-10-2026,3,12,3,3,7,10,4,TRUE
+66166ece96fb1df60617a078,61,7635,Training employees on a new software system,,27-04-2025,08-10-2026,6,5,3,7,11,9,12,TRUE
+66166ecf96fb1df60617a079,339,6031,Setting up a project management tool,massa volutpat convallis morbi odio,28-04-2025,09-10-2026,10,7,4,6,8,4,5,TRUE
+66166ecf96fb1df60617a07a,111,4980,Testing a website,eget rutrum at lorem integer tincidunt ante vel ipsum praesent,03-05-2025,14-10-2026,9,4,7,11,4,5,7,FALSE
+66166ecf96fb1df60617a07b,434,7741,Configuring virtual machines,velit donec diam neque vestibulum eget vulputate ut ultrices,03-05-2025,16-10-2026,8,11,9,7,10,8,11,TRUE
+66166ecf96fb1df60617a07c,270,6420,Documenting software requirements,,07-05-2025,16-10-2026,10,8,5,4,9,12,11,FALSE
+66166ecf96fb1df60617a07d,11,6170,Designing a user interface,,07-05-2025,20-10-2026,11,9,12,9,11,6,11,TRUE
+66166ecf96fb1df60617a07e,298,1032,Training employees on a new software system,,11-05-2025,26-10-2026,5,9,8,10,9,6,5,FALSE
+66166ecf96fb1df60617a07f,462,1360,Designing a user interface,,13-05-2025,26-10-2026,9,11,7,12,7,12,5,TRUE
+66166ecf96fb1df60617a080,407,5012,Configuring virtual machines,,13-05-2025,29-10-2026,5,9,4,6,4,8,3,TRUE
+66166ecf96fb1df60617a081,86,6420,Configuring virtual machines,in leo maecenas pulvinar lobortis est,14-05-2025,29-10-2026,6,11,10,5,12,4,3,FALSE
+66166ecf96fb1df60617a082,426,6790,technical support,dolor sit amet consectetuer adipiscing elit proin risus praesent,14-05-2025,01-11-2026,10,11,12,9,5,12,11,FALSE
+66166ecf96fb1df60617a083,360,2510,technical support,,15-05-2025,01-11-2026,8,9,8,12,4,11,10,TRUE
+66166ecf96fb1df60617a084,45,4580,technical support,,17-05-2025,01-11-2026,7,7,6,8,6,8,10,FALSE
+66166ecf96fb1df60617a085,314,6150,technical support,,18-05-2025,09-11-2026,3,3,9,10,3,6,11,FALSE
+66166ecf96fb1df60617a086,107,1062,Performing code reviews,,21-05-2025,09-11-2026,4,5,5,9,5,8,8,TRUE
+66166ecf96fb1df60617a087,101,2870,Optimizing database performance,,21-05-2025,10-11-2026,9,7,10,10,9,7,6,FALSE
+66166ecf96fb1df60617a088,151,2730,Designing a user interface,,21-05-2025,14-11-2026,11,10,7,9,9,5,9,TRUE
+66166ecf96fb1df60617a089,488,2640,Configuring virtual machines,purus eu magna vulputate luctus cum,21-05-2025,15-11-2026,12,7,3,6,5,9,4,FALSE
+66166ecf96fb1df60617a08a,39,3901,technical support,mus etiam vel augue vestibulum rutrum,22-05-2025,19-11-2026,12,8,9,5,10,10,8,TRUE
+66166ecf96fb1df60617a08b,43,2580,technical support,potenti nullam porttitor lacus at turpis donec posuere,23-05-2025,25-11-2026,8,10,6,11,11,6,12,FALSE
+66166ecf96fb1df60617a08c,383,7331,Setting up a project management tool,,25-05-2025,29-11-2026,8,7,10,5,4,12,11,TRUE
+66166ecf96fb1df60617a08d,199,6140,Designing a user interface,,28-05-2025,03-12-2026,7,9,12,4,10,8,8,FALSE
+66166ecf96fb1df60617a08e,356,5680,Integrating third-party APIs,,28-05-2025,09-12-2026,11,12,5,11,3,10,3,FALSE
+66166ecf96fb1df60617a08f,91,5410,Performing code reviews,nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel,04-06-2025,09-12-2026,11,7,10,6,7,12,9,TRUE
+66166ecf96fb1df60617a090,392,6350,Performing code reviews,vestibulum rutrum rutrum neque aenean auctor gravida sem praesent,05-06-2025,15-12-2026,10,8,5,6,10,11,7,TRUE
+66166ecf96fb1df60617a091,63,7728,Testing a website,,10-06-2025,26-12-2026,8,10,11,5,8,10,6,TRUE
+66166ecf96fb1df60617a092,260,7012,Performing code reviews,,12-06-2025,27-12-2026,6,7,11,7,5,11,6,FALSE
+66166ecf96fb1df60617a093,7,7199,Analyzing data,,13-06-2025,28-12-2026,5,7,8,4,11,6,7,FALSE
+66166ecf96fb1df60617a094,104,4560,Implementing a cybersecurity solution,lacinia aenean sit amet justo morbi ut odio cras,17-06-2025,29-12-2026,10,10,4,3,12,12,5,FALSE
+66166ecf96fb1df60617a095,267,1902,Analyzing data,tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae,23-06-2025,29-12-2026,10,4,7,3,9,11,8,TRUE
+66166ecf96fb1df60617a096,468,2940,Analyzing data,,24-06-2025,31-12-2026,5,9,10,4,11,12,8,FALSE
+66166ecf96fb1df60617a097,43,7516,Integrating third-party APIs,id lobortis convallis tortor risus dapibus augue vel accumsan,26-06-2025,01-01-2027,4,8,12,12,6,4,3,FALSE
+66166ecf96fb1df60617a098,305,4370,Troubleshooting network connectivity issues,,26-06-2025,15-01-2027,9,9,8,11,9,11,9,TRUE
+66166ecf96fb1df60617a099,390,1430,Documenting software requirements,sagittis dui vel nisl duis ac nibh fusce,27-06-2025,16-01-2027,12,7,5,11,10,7,9,TRUE
+66166ed096fb1df60617a09a,341,6480,Creating a mobile app prototype,,28-06-2025,18-01-2027,6,4,5,3,7,4,8,TRUE
+66166ed096fb1df60617a09b,186,2340,Documenting software requirements,ac nibh fusce lacus purus aliquet at feugiat non,28-06-2025,19-01-2027,11,7,5,4,4,12,10,FALSE
+66166ed096fb1df60617a09c,345,5190,Creating a mobile app prototype,,29-06-2025,28-01-2027,9,4,11,10,11,9,4,TRUE
+66166ed096fb1df60617a09d,210,2301,Migrating data to a new server,,01-07-2025,28-01-2027,5,6,12,9,11,8,4,FALSE
+66166ed096fb1df60617a09e,24,4601,Testing a website,odio cras mi pede malesuada in imperdiet et commodo,06-07-2025,03-02-2027,4,6,3,4,11,3,5,FALSE
+66166ed096fb1df60617a09f,133,5980,Implementing a cybersecurity solution,ut suscipit a feugiat et eros vestibulum ac est lacinia,12-07-2025,05-02-2027,9,9,11,5,5,4,11,TRUE
+66166ed096fb1df60617a0a0,76,7172,Configuring virtual machines,,12-07-2025,10-02-2027,4,8,7,12,9,5,6,FALSE
+66166ed096fb1df60617a0a1,437,7371,Conducting a network security audit,,14-07-2025,11-02-2027,8,3,5,8,10,11,3,FALSE
+66166ed096fb1df60617a0a2,38,6081,Training employees on a new software system,,17-07-2025,11-02-2027,5,5,7,10,12,8,11,FALSE
+66166ed096fb1df60617a0a3,231,7093,Testing a website,,20-07-2025,12-02-2027,9,9,12,8,11,8,7,TRUE
+66166ed096fb1df60617a0a4,294,1902,Training employees on a new software system,,21-07-2025,12-02-2027,9,11,12,3,7,7,8,TRUE
+66166ed096fb1df60617a0a5,16,1890,Performing code reviews,,22-07-2025,14-02-2027,12,9,10,5,5,8,8,FALSE
+66166ed096fb1df60617a0a6,60,2590,Documenting software requirements,ante vel ipsum praesent blandit lacinia erat,24-07-2025,21-02-2027,5,9,3,8,8,7,6,FALSE
+66166ed096fb1df60617a0a7,136,4150,Creating a mobile app prototype,,25-07-2025,22-02-2027,7,7,3,8,10,12,11,TRUE
+66166ed096fb1df60617a0a8,295,1402,Creating a mobile app prototype,eu sapien cursus vestibulum proin,27-07-2025,25-02-2027,4,11,7,8,5,5,10,FALSE
+66166ed096fb1df60617a0a9,84,4170,Designing a user interface,,27-07-2025,25-02-2027,3,8,3,4,5,11,7,TRUE
+66166ed096fb1df60617a0aa,78,4301,Troubleshooting network connectivity issues,,30-07-2025,26-02-2027,4,6,4,7,9,7,5,TRUE
+66166ed096fb1df60617a0ab,284,7847,Conducting a network security audit,libero ut massa volutpat convallis morbi odio odio,06-08-2025,27-02-2027,11,8,9,7,6,3,8,FALSE
+66166ed096fb1df60617a0ac,178,6021,Analyzing data,,07-08-2025,02-03-2027,7,12,5,12,11,12,5,TRUE
+66166ed096fb1df60617a0ad,218,5081,Documenting software requirements,,13-08-2025,04-03-2027,10,11,7,12,4,5,10,FALSE
+66166ed096fb1df60617a0ae,388,4560,Analyzing data,,15-08-2025,04-03-2027,9,12,11,11,6,8,7,FALSE
+66166ed096fb1df60617a0af,468,1560,Implementing a cybersecurity solution,cursus urna ut tellus nulla ut,21-08-2025,10-03-2027,8,11,3,9,4,8,6,FALSE
+66166ed096fb1df60617a0b0,464,1670,Training employees on a new software system,nulla tempus vivamus in felis eu sapien cursus vestibulum proin,23-08-2025,12-03-2027,4,9,7,10,7,10,6,FALSE
+66166ed096fb1df60617a0b1,195,2830,Configuring virtual machines,,23-08-2025,14-03-2027,11,11,11,3,5,5,6,FALSE
+66166ed096fb1df60617a0b2,486,2470,Analyzing data,,29-08-2025,15-03-2027,11,11,11,8,11,5,6,TRUE
+66166ed096fb1df60617a0b3,100,4520,Integrating third-party APIs,,31-08-2025,16-03-2027,6,10,8,12,7,3,10,FALSE
+66166ed096fb1df60617a0b4,330,2950,Troubleshooting network connectivity issues,,03-09-2025,17-03-2027,4,9,6,6,7,7,11,TRUE
+66166ed096fb1df60617a0b5,197,4710,technical support,gravida nisi at nibh in hac,03-09-2025,18-03-2027,12,7,12,7,6,3,10,FALSE
+66166ed096fb1df60617a0b6,442,5430,Collaborating with cross-functional teams,,05-09-2025,18-03-2027,8,4,12,6,6,5,12,FALSE
+66166ed096fb1df60617a0b7,20,4601,Deploying a cloud-based solution,convallis morbi odio odio elementum,11-09-2025,21-03-2027,9,3,9,3,6,7,12,TRUE
+66166ed096fb1df60617a0b8,277,2940,Testing a website,,13-09-2025,22-03-2027,11,9,4,8,9,5,12,TRUE
+66166ed196fb1df60617a0b9,70,3950,Migrating data to a new server,,14-09-2025,26-03-2027,7,5,10,5,5,3,9,TRUE
+66166ed196fb1df60617a0ba,443,1890,Designing a user interface,,20-09-2025,30-03-2027,5,4,12,3,9,4,9,FALSE
+66166ed196fb1df60617a0bb,500,1640,Testing a website,,23-09-2025,02-04-2027,8,7,5,8,11,5,8,TRUE
+66166ed196fb1df60617a0bc,450,2960,Configuring virtual machines,ultrices posuere cubilia curae nulla dapibus dolor vel est,28-09-2025,02-04-2027,7,7,10,11,3,8,3,FALSE
+66166ed196fb1df60617a0bd,254,2430,Testing a website,sit amet consectetuer adipiscing elit proin risus praesent lectus,03-10-2025,05-04-2027,7,9,7,3,3,4,4,FALSE
+66166ed196fb1df60617a0be,425,4230,Implementing a cybersecurity solution,nunc vestibulum ante ipsum primis in faucibus orci luctus et,07-10-2025,06-04-2027,11,11,4,10,5,5,7,TRUE
+66166ed196fb1df60617a0bf,451,6401,Analyzing data,viverra diam vitae quam suspendisse,09-10-2025,11-04-2027,3,3,5,3,5,9,6,TRUE
+66166ed196fb1df60617a0c0,441,7741,Developing a new software,,09-10-2025,13-04-2027,3,12,8,3,7,6,12,FALSE
+66166ed196fb1df60617a0c1,132,6920,technical support,,09-10-2025,13-04-2027,3,12,11,10,7,6,4,FALSE
+66166ed196fb1df60617a0c2,139,4520,Migrating data to a new server,,12-10-2025,14-04-2027,6,7,3,7,12,10,10,FALSE
+66166ed196fb1df60617a0c3,252,1960,Conducting a network security audit,,12-10-2025,17-04-2027,3,11,5,12,11,6,7,FALSE
+66166ed196fb1df60617a0c4,42,2570,Automating repetitive tasks,,19-10-2025,19-04-2027,10,9,9,8,4,9,10,TRUE
+66166ed196fb1df60617a0c5,56,1930,Performing code reviews,,20-10-2025,21-04-2027,8,6,10,12,4,7,3,TRUE
+66166ed196fb1df60617a0c6,248,6920,Migrating data to a new server,,24-10-2025,22-04-2027,10,8,10,7,12,4,5,TRUE
+66166ed196fb1df60617a0c7,122,2670,Conducting a network security audit,ipsum integer a nibh in quis justo maecenas rhoncus,30-10-2025,22-04-2027,3,4,9,7,4,11,8,FALSE
+66166ed196fb1df60617a0c8,174,1680,Deploying a cloud-based solution,,30-10-2025,28-04-2027,3,9,11,9,9,9,11,FALSE
+66166ed196fb1df60617a0c9,477,6430,Setting up a project management tool,,31-10-2025,30-04-2027,8,8,3,7,9,10,3,FALSE
+66166ed196fb1df60617a0ca,479,4820,Training employees on a new software system,quis turpis sed ante vivamus,05-11-2025,05-05-2027,7,3,9,6,9,3,7,FALSE
+66166ed196fb1df60617a0cb,199,3960,technical support,,06-11-2025,09-05-2027,3,6,4,7,12,7,6,TRUE
+66166ed196fb1df60617a0cc,165,2401,Optimizing database performance,,08-11-2025,14-05-2027,5,9,6,12,10,3,10,FALSE
+66166ed196fb1df60617a0cd,287,4980,Performing code reviews,in sagittis dui vel nisl duis ac nibh fusce lacus,10-11-2025,15-05-2027,12,8,5,12,9,3,11,FALSE
+66166ed196fb1df60617a0ce,342,2081,Designing a user interface,,12-11-2025,19-05-2027,3,6,11,12,4,10,12,TRUE
+66166ed196fb1df60617a0cf,170,7384,Testing a website,mi in porttitor pede justo eu massa donec dapibus,12-11-2025,22-05-2027,11,10,9,4,6,5,10,TRUE
+66166ed196fb1df60617a0d0,430,4120,Collaborating with cross-functional teams,,13-11-2025,24-05-2027,10,12,12,4,3,6,8,TRUE
+66166ed196fb1df60617a0d1,343,5390,Developing a new software,,13-11-2025,26-05-2027,5,9,5,6,5,12,12,TRUE
+66166ed196fb1df60617a0d2,293,5021,Documenting software requirements,turpis donec posuere metus vitae ipsum aliquam,14-11-2025,26-05-2027,11,3,5,8,4,11,7,TRUE
+66166ed196fb1df60617a0d3,150,6840,Developing a new software,,20-11-2025,28-05-2027,5,12,11,9,6,10,12,FALSE
+66166ed196fb1df60617a0d4,191,1860,Developing a new software,,20-11-2025,30-05-2027,11,4,12,5,4,8,6,TRUE
+66166ed196fb1df60617a0d5,407,7834,Deploying a cloud-based solution,,21-11-2025,31-05-2027,12,8,4,7,3,8,7,TRUE
+66166ed196fb1df60617a0d6,258,6870,Setting up a project management tool,,22-11-2025,05-06-2027,8,10,6,11,4,8,4,TRUE
+66166ed296fb1df60617a0d7,457,5980,Optimizing database performance,platea dictumst aliquam augue quam sollicitudin vitae,27-11-2025,06-06-2027,11,4,10,6,4,7,9,FALSE
+66166ed296fb1df60617a0d8,100,4910,Developing a new software,massa tempor convallis nulla neque libero convallis,27-11-2025,07-06-2027,5,7,5,10,7,3,5,FALSE
+66166ed296fb1df60617a0d9,486,7371,Testing a website,,01-12-2025,11-06-2027,7,7,11,4,6,7,3,FALSE
+66166ed296fb1df60617a0da,206,2610,Implementing a cybersecurity solution,massa tempor convallis nulla neque libero convallis eget,01-12-2025,13-06-2027,6,4,6,11,12,3,12,TRUE
+66166ed296fb1df60617a0db,122,2150,Developing a new software,ut tellus nulla ut erat id mauris vulputate,02-12-2025,17-06-2027,9,10,9,6,10,10,11,TRUE
+66166ed296fb1df60617a0dc,363,4160,Troubleshooting network connectivity issues,,04-12-2025,18-06-2027,6,12,9,9,6,6,5,FALSE
+66166ed296fb1df60617a0dd,222,5180,Optimizing database performance,,05-12-2025,19-06-2027,9,12,5,12,12,5,3,TRUE
+66166ed296fb1df60617a0de,213,5430,Migrating data to a new server,viverra pede ac diam cras,05-12-2025,22-06-2027,11,6,5,7,4,6,6,FALSE
+66166ed296fb1df60617a0df,173,2340,Collaborating with cross-functional teams,,06-12-2025,25-06-2027,7,11,8,8,7,6,10,FALSE
+66166ed296fb1df60617a0e0,141,7331,Performing code reviews,,06-12-2025,27-06-2027,4,4,6,8,5,4,6,FALSE
+66166ed296fb1df60617a0e1,483,7450,Testing a website,,13-12-2025,27-06-2027,7,3,10,6,10,12,6,FALSE
+66166ed296fb1df60617a0e2,184,4690,Migrating data to a new server,,14-12-2025,29-06-2027,10,9,6,5,7,5,10,TRUE
+66166ed296fb1df60617a0e3,355,4310,Setting up a project management tool,,15-12-2025,01-07-2027,5,4,9,6,3,9,8,TRUE
+66166ed296fb1df60617a0e4,398,5130,Performing code reviews,,18-12-2025,02-07-2027,11,4,11,6,8,6,6,TRUE
+66166ed296fb1df60617a0e5,497,3940,Developing a new software,,19-12-2025,04-07-2027,3,9,4,10,9,6,3,TRUE
+66166ed296fb1df60617a0e6,287,4801,Testing a website,gravida nisi at nibh in hac habitasse platea dictumst,22-12-2025,04-07-2027,7,11,11,12,10,5,8,FALSE
+66166ed296fb1df60617a0e7,415,5041,Migrating data to a new server,praesent blandit lacinia erat vestibulum sed magna at nunc commodo,23-12-2025,07-07-2027,7,9,8,11,10,3,5,FALSE
+66166ed296fb1df60617a0e8,289,7701,Configuring virtual machines,ultrices posuere cubilia curae mauris viverra diam,25-12-2025,12-07-2027,10,5,5,4,7,10,4,TRUE
+66166ed296fb1df60617a0e9,391,1750,Analyzing data,,31-12-2025,12-07-2027,6,8,10,4,6,5,7,TRUE
+66166ed296fb1df60617a0ea,488,7133,Training employees on a new software system,,03-01-2026,16-07-2027,9,3,3,3,7,8,4,TRUE
+66166ed296fb1df60617a0eb,77,3980,Training employees on a new software system,,04-01-2026,16-07-2027,12,3,3,3,5,3,7,FALSE
+66166ed296fb1df60617a0ec,181,2860,technical support,,08-01-2026,27-07-2027,4,12,4,8,4,9,11,TRUE
+66166ed296fb1df60617a0ed,59,6901,Setting up a project management tool,,11-01-2026,27-07-2027,9,4,3,3,6,9,10,TRUE
+66166ed296fb1df60617a0ee,54,6310,Designing a user interface,lorem quisque ut erat curabitur gravida nisi at nibh in,18-01-2026,29-07-2027,9,4,10,5,7,12,12,FALSE
+66166ed296fb1df60617a0ef,67,5102,Documenting software requirements,in lectus pellentesque at nulla suspendisse potenti cras in purus,23-01-2026,09-08-2027,12,4,9,4,11,5,12,TRUE
+66166ed296fb1df60617a0f0,259,7582,Designing a user interface,,23-01-2026,11-08-2027,6,6,7,12,8,6,6,FALSE
+66166ed296fb1df60617a0f1,149,1570,Testing a website,felis eu sapien cursus vestibulum proin eu,26-01-2026,12-08-2027,8,9,3,5,9,8,10,TRUE
+66166ed296fb1df60617a0f2,77,6190,Training employees on a new software system,accumsan felis ut at dolor quis,28-01-2026,15-08-2027,9,4,5,7,7,9,6,TRUE
+66166ed296fb1df60617a0f3,439,4102,Documenting software requirements,,29-01-2026,16-08-2027,8,12,7,12,6,3,9,TRUE
+66166ed296fb1df60617a0f4,221,5430,Optimizing database performance,,02-02-2026,19-08-2027,10,9,9,5,7,4,5,TRUE
+66166ed296fb1df60617a0f5,203,1450,Setting up a project management tool,,02-02-2026,19-08-2027,3,4,7,4,8,4,12,TRUE
+66166ed296fb1df60617a0f6,427,7675,Deploying a cloud-based solution,,02-02-2026,20-08-2027,3,4,11,6,11,6,5,TRUE
+66166ed296fb1df60617a0f7,485,2490,Deploying a cloud-based solution,,05-02-2026,21-08-2027,10,8,4,9,10,7,9,TRUE
+66166ed396fb1df60617a0f8,494,6190,Training employees on a new software system,,05-02-2026,23-08-2027,10,9,6,6,12,9,6,FALSE
+66166ed396fb1df60617a0f9,342,1902,Automating repetitive tasks,pede lobortis ligula sit amet eleifend pede libero quis,15-02-2026,25-08-2027,9,10,9,8,5,12,5,FALSE
+66166ed396fb1df60617a0fa,39,5370,Conducting a network security audit,,17-02-2026,26-08-2027,9,12,9,8,12,9,5,TRUE
+66166ed396fb1df60617a0fb,69,7120,Setting up a project management tool,,18-02-2026,31-08-2027,7,3,5,8,12,12,11,TRUE
+66166ed396fb1df60617a0fc,431,2690,Automating repetitive tasks,,21-02-2026,02-09-2027,3,12,3,5,4,9,7,FALSE
+66166ed396fb1df60617a0fd,1,6120,Performing code reviews,,22-02-2026,08-09-2027,6,11,4,3,12,6,7,FALSE
+66166ed396fb1df60617a0fe,121,2540,Troubleshooting network connectivity issues,,24-02-2026,13-09-2027,7,12,12,8,10,4,7,TRUE
+66166ed396fb1df60617a0ff,347,6012,Testing a website,,24-02-2026,13-09-2027,7,6,10,7,7,11,7,FALSE
+66166ed396fb1df60617a100,499,7754,Developing a new software,,24-02-2026,13-09-2027,3,6,12,11,8,6,12,TRUE
+66166ed396fb1df60617a101,479,3940,Training employees on a new software system,sodales scelerisque mauris sit amet eros suspendisse,25-02-2026,14-09-2027,3,12,7,10,4,9,4,TRUE
+66166ed396fb1df60617a102,212,1860,Integrating third-party APIs,,27-02-2026,16-09-2027,5,12,12,7,6,4,4,TRUE
+66166ed396fb1df60617a103,108,2071,Integrating third-party APIs,in felis eu sapien cursus vestibulum proin eu mi,27-02-2026,18-09-2027,11,6,7,4,9,7,11,TRUE
+66166ed396fb1df60617a104,252,5320,Optimizing database performance,erat eros viverra eget congue eget semper rutrum nulla,03-03-2026,19-09-2027,4,8,9,11,10,12,7,FALSE
+66166ed396fb1df60617a105,163,7834,Configuring virtual machines,mus etiam vel augue vestibulum rutrum rutrum neque aenean,05-03-2026,22-09-2027,11,7,6,9,8,9,8,TRUE
+66166ed396fb1df60617a106,280,2870,Designing a user interface,,10-03-2026,24-09-2027,3,5,5,12,8,8,10,FALSE
+66166ed396fb1df60617a107,486,2410,Collaborating with cross-functional teams,,13-03-2026,26-09-2027,10,5,6,6,3,12,6,FALSE
+66166ed396fb1df60617a108,19,4260,Performing code reviews,,17-03-2026,27-09-2027,9,6,6,4,3,12,5,FALSE
+66166ed396fb1df60617a109,149,6470,Integrating third-party APIs,,18-03-2026,06-10-2027,12,12,10,11,12,10,9,TRUE
+66166ed396fb1df60617a10a,401,6970,Documenting software requirements,,20-03-2026,07-10-2027,8,7,4,3,12,3,8,TRUE
+66166ed396fb1df60617a10b,75,4701,Troubleshooting network connectivity issues,,20-03-2026,07-10-2027,9,3,12,12,6,5,6,TRUE
+66166ed396fb1df60617a10c,55,6940,Training employees on a new software system,,24-03-2026,08-10-2027,6,11,9,10,8,7,7,TRUE
+66166ed396fb1df60617a10d,320,5490,Troubleshooting network connectivity issues,,24-03-2026,08-10-2027,12,10,8,3,11,10,10,TRUE
+66166ed396fb1df60617a10e,32,3901,Documenting software requirements,,24-03-2026,10-10-2027,12,10,4,6,10,7,9,TRUE
+66166ed396fb1df60617a10f,36,6501,Documenting software requirements,,25-03-2026,14-10-2027,9,4,3,3,10,9,5,FALSE
+66166ed396fb1df60617a110,440,2890,Migrating data to a new server,,26-03-2026,16-10-2027,8,10,10,7,11,7,7,FALSE
+66166ed396fb1df60617a111,264,2910,Performing code reviews,,28-03-2026,21-10-2027,5,12,4,12,5,3,12,TRUE
+66166ed396fb1df60617a112,325,6031,Setting up a project management tool,dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at,28-03-2026,26-10-2027,11,3,5,6,7,10,4,TRUE
+66166ed396fb1df60617a113,462,6940,Testing a website,,29-03-2026,27-10-2027,7,3,11,6,6,8,10,FALSE
+66166ed396fb1df60617a114,352,7715,Migrating data to a new server,tristique fusce congue diam id,29-03-2026,27-10-2027,4,10,4,7,9,4,7,TRUE
+66166ed396fb1df60617a115,67,5081,Implementing a cybersecurity solution,,02-04-2026,30-10-2027,12,3,3,6,3,5,4,FALSE
+66166ed396fb1df60617a116,368,4801,Configuring virtual machines,,03-04-2026,31-10-2027,5,12,12,5,5,10,8,FALSE
+66166ed396fb1df60617a117,107,4350,Migrating data to a new server,,03-04-2026,02-11-2027,12,11,12,12,10,9,6,TRUE
+66166ed396fb1df60617a118,434,2950,Creating a mobile app prototype,,08-04-2026,13-11-2027,8,9,8,5,3,4,4,FALSE
+66166ed396fb1df60617a119,147,5970,Designing a user interface,,09-04-2026,15-11-2027,4,5,10,7,12,7,3,FALSE
+66166ed496fb1df60617a11a,21,4670,Implementing a cybersecurity solution,,09-04-2026,16-11-2027,5,11,5,10,4,11,8,FALSE
+66166ed496fb1df60617a11b,245,4590,Designing a user interface,,13-04-2026,17-11-2027,5,10,6,9,5,7,6,TRUE
+66166ed496fb1df60617a11c,486,4290,Designing a user interface,,14-04-2026,21-11-2027,11,9,7,12,9,4,6,FALSE
+66166ed496fb1df60617a11d,217,7239,Designing a user interface,eget massa tempor convallis nulla neque,15-04-2026,21-11-2027,6,5,5,7,12,6,3,FALSE
+66166ed496fb1df60617a11e,269,5460,Documenting software requirements,accumsan tellus nisi eu orci mauris lacinia,17-04-2026,26-11-2027,4,7,10,4,4,12,10,FALSE
+66166ed496fb1df60617a11f,405,5410,Integrating third-party APIs,,17-04-2026,30-11-2027,12,7,12,4,8,3,9,TRUE
+66166ed496fb1df60617a120,435,4620,Performing code reviews,,22-04-2026,02-12-2027,10,8,10,10,7,4,7,FALSE
+66166ed496fb1df60617a121,106,4830,Troubleshooting network connectivity issues,,23-04-2026,04-12-2027,12,3,12,8,6,12,6,FALSE
+66166ed496fb1df60617a122,353,1690,Optimizing database performance,lobortis sapien sapien non mi integer ac neque duis,26-04-2026,11-12-2027,8,4,11,7,9,3,9,TRUE
+66166ed496fb1df60617a123,336,2830,Collaborating with cross-functional teams,in imperdiet et commodo vulputate,26-04-2026,12-12-2027,11,7,7,4,6,11,7,TRUE
+66166ed496fb1df60617a124,349,5470,Designing a user interface,,26-04-2026,13-12-2027,10,9,3,3,7,10,11,FALSE
+66166ed496fb1df60617a125,40,3940,Conducting a network security audit,,26-04-2026,14-12-2027,7,5,11,3,8,12,4,TRUE
+66166ed496fb1df60617a126,442,7477,Conducting a network security audit,erat id mauris vulputate elementum,28-04-2026,19-12-2027,9,8,11,9,8,10,11,TRUE
+66166ed496fb1df60617a127,296,1430,Analyzing data,,01-05-2026,20-12-2027,9,5,5,10,12,6,6,TRUE
+66166ed496fb1df60617a128,21,1980,Analyzing data,,02-05-2026,23-12-2027,5,11,5,12,9,3,9,FALSE
+66166ed496fb1df60617a129,251,4390,Collaborating with cross-functional teams,varius ut blandit non interdum in ante vestibulum ante,03-05-2026,07-01-2028,4,5,10,5,3,12,9,TRUE
+66166ed496fb1df60617a12a,185,6120,technical support,,05-05-2026,08-01-2028,8,5,5,11,7,6,9,FALSE
+66166ed496fb1df60617a12b,218,1702,Migrating data to a new server,,07-05-2026,08-01-2028,7,11,12,5,6,3,3,TRUE
+66166ed496fb1df60617a12c,418,2061,Integrating third-party APIs,,09-05-2026,09-01-2028,12,8,7,6,3,10,8,FALSE
+66166ed496fb1df60617a12d,176,6920,technical support,ligula suspendisse ornare consequat lectus,12-05-2026,17-01-2028,9,10,3,4,11,11,4,FALSE
+66166ed496fb1df60617a12e,327,3970,Testing a website,lobortis sapien sapien non mi,14-05-2026,17-01-2028,9,4,4,5,11,3,6,FALSE
+66166ed496fb1df60617a12f,215,2380,Configuring virtual machines,nunc commodo placerat praesent blandit,19-05-2026,22-01-2028,3,8,4,10,11,5,9,FALSE
+66166ed496fb1df60617a130,439,7715,Setting up a project management tool,nunc viverra dapibus nulla suscipit ligula in lacus,22-05-2026,28-01-2028,6,6,10,4,11,6,12,FALSE
+66166ed496fb1df60617a131,424,1640,Creating a mobile app prototype,,24-05-2026,29-01-2028,4,11,5,5,8,6,8,TRUE
+66166ed496fb1df60617a132,308,4780,Implementing a cybersecurity solution,nullam molestie nibh in lectus pellentesque,27-05-2026,30-01-2028,6,12,3,9,11,7,9,TRUE
+66166ed496fb1df60617a133,366,1470,Developing a new software,,28-05-2026,02-02-2028,8,3,5,11,10,3,4,TRUE
+66166ed596fb1df60617a134,405,7847,Conducting a network security audit,,28-05-2026,03-02-2028,8,11,8,4,5,8,6,FALSE
+66166ed596fb1df60617a135,152,6420,Deploying a cloud-based solution,,28-05-2026,03-02-2028,11,4,5,12,7,4,5,FALSE
+66166ed596fb1df60617a136,270,4230,Developing a new software,,30-05-2026,09-02-2028,9,3,6,6,6,10,4,FALSE
+66166ed596fb1df60617a137,236,2390,Implementing a cybersecurity solution,,31-05-2026,10-02-2028,7,5,4,3,6,5,5,TRUE
+66166ed596fb1df60617a138,323,6930,Testing a website,ut blandit non interdum in ante,03-06-2026,11-02-2028,11,5,4,6,8,6,6,FALSE
+66166ed596fb1df60617a139,185,4061,Testing a website,,08-06-2026,14-02-2028,3,10,4,11,11,7,12,FALSE
+66166ed596fb1df60617a13a,361,3950,Collaborating with cross-functional teams,,09-06-2026,15-02-2028,9,11,12,5,10,4,5,FALSE

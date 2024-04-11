@@ -1,0 +1,28 @@
+[0m14:26:28.204028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001885015F3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018852B9A380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018852B9A1A0>]}
+
+
+============================== 14:26:28.210029 | 0af86233-4fdf-4256-aca9-707784f0835e ==============================
+[0m14:26:28.210029 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:26:28.211030 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\AshmithaLaxmi\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init timesheet_data_eng', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:26:28.216029 [debug] [MainThread]: Starter project path: C:\Users\AshmithaLaxmi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m14:26:28.289029 [info ] [MainThread]: 
+Your new dbt project "timesheet_data_eng" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:26:28.291028 [info ] [MainThread]: Setting up your profile.
+[0m14:27:38.940651 [info ] [MainThread]: Profile timesheet_data_eng written to C:\Users\AshmithaLaxmi\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:27:38.943636 [debug] [MainThread]: Command `dbt init` succeeded at 14:27:38.943636 after 70.84 seconds
+[0m14:27:38.944653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001885015F3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018852B9A230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018852B9A410>]}
+[0m14:27:38.944653 [debug] [MainThread]: Flushing usage events
