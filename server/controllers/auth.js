@@ -5,8 +5,7 @@ const { UserModel,
     otpModel,
     projectAssignmentModel,
     timesheetModel,
-    projectModel,
-    feedbackModel } = require('../model/mongo_models');
+    projectModel} = require('../model/mongo_models');
 let loggedUser = null;
 
     

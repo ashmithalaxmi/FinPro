@@ -2,8 +2,7 @@ const { UserModel,
     otpModel,
     projectAssignmentModel,
     timesheetModel,
-    projectModel,
-    feedbackModel } = require('../model/mongo_models');
+    projectModel } = require('../model/mongo_models');
 
 const create_project = async (req, res) => {
     try {
