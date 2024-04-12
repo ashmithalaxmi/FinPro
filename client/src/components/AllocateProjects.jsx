@@ -83,39 +83,56 @@ const AllocateProjects = () => {
   };
 
   return (
+    // <center>
     <div className="container mx-auto px-4 py-8">
   <h2 className="text-2xl font-bold mb-4">Allocate Projects</h2>
   {errorMessage && <p className="error-message">{errorMessage}</p>}
   <form onSubmit={handleSubmit}>
+    <table>
+      <tr>
     <div className="mb-4">
-      <label htmlFor="projectID" className="block">Project ID:</label>
+      <td><label htmlFor="projectID" className="block">Project ID:</label></td>
+      <td>
       <select id="PID" name="PID" value={formData.projectID} onChange={handleInputChange} className="form-select" required>
         <option value="">Select Project ID</option>
         {data.projects.map(project => (
           <option key={project.PID} value={project.PID}>{project.name}</option>
         ))}
       </select>
+      </td>
     </div>
+    </tr>
+    <tr>
     <div className="mb-4">
-      <label htmlFor="email" className="block">Name:</label>
-      <select id="email" name="email" value={formData.email} onChange={handleInputChange} className="form-select" required>
+    <td><label htmlFor="email" className="block">Name:</label></td>
+    <td><select id="email" name="email" value={formData.email} onChange={handleInputChange} className="form-select" required>
         <option value="">Select Email</option>
         {data.users.map(user => (
           <option key={user.email} value={user.email}>{user.name}</option>
         ))}
       </select>
+      </td>
     </div>
+    </tr>
+    <tr>
     <div className="mb-4">
-      <label htmlFor="allocationStart" className="block">Allocation Start:</label>
-      <input type="date" id="allocation_start" name="allocation_start" value={formData.allocation_start} onChange={handleInputChange} className="form-input" required />
+    <td><label htmlFor="allocationStart" className="block">Allocation Start:</label></td>
+    <td><input type="date" id="allocation_start" name="allocation_start" value={formData.allocation_start} onChange={handleInputChange} className="form-input" required /></td>
     </div>
+    </tr>
+    <tr>
     <div className="mb-4">
-      <label htmlFor="allocationEnd" className="block">Allocation End:</label>
-      <input type="date" id="allocation_end" name="allocation_end" value={formData.allocation_end} onChange={handleInputChange} className="form-input" required />
+    <td><label htmlFor="allocationEnd" className="block">Allocation End:</label></td>
+    <td><input type="date" id="allocation_end" name="allocation_end" value={formData.allocation_end} onChange={handleInputChange} className="form-input" required /></td>
     </div>
-    <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md">Allocate Project</button>
+    </tr>
+    <tr>
+    <td><button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md">Allocate Project</button></td>
+    </tr>
+    </table>
   </form>
 </div>
+// </center>
   );
 };
 

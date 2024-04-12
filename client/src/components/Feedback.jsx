@@ -69,7 +69,7 @@ export const Feedback = () => {
   };
 
   return (
-    <div>
+    <div className='center-bo'>
       <h1>Feedback</h1>
       <form onSubmit={handleSubmit}>
         <p>1. What is the difficulty level of the project?</p>
