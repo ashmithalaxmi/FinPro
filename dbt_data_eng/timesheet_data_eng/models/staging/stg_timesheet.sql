@@ -1,5 +1,6 @@
 {{
     config(
+         ---tags to refer the staging layer
         tags=['basic', 'staging']
     )
 }}
@@ -11,6 +12,7 @@ required_fields AS (
 
 
     SELECT
+        --- casting of necessary features and following naming conventions
         CAST(id AS INT) AS user_ID ,
         CAST(PID AS INT) AS project_id,
         ACTIVITY AS activity,

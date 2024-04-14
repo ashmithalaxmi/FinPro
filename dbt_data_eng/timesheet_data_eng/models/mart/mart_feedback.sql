@@ -1,5 +1,6 @@
 {{
     config(
+        ---tags to refer the mart layer
         tags=['mart']
     )
 }}
@@ -9,7 +10,7 @@ WITH
 stg_user AS (
 
     SELECT
-
+        ---select the necessary features from the user table
         user_ID, user_name, role
 
     FROM {{ ref('stg_user') }}
@@ -18,7 +19,7 @@ stg_user AS (
 stg_project AS (
 
     SELECT
-
+        ---select the necessary features from the project table
         project_id, project_name
 
     FROM {{ ref('stg_project') }}
@@ -27,7 +28,7 @@ stg_project AS (
 
 stg_feedback AS (
     SELECT
-
+        ---select all the features from feedback table
         *
 
     FROM {{ ref('stg_feedback') }}
@@ -35,6 +36,7 @@ stg_feedback AS (
 
 
 left_join_user_feed AS (
+    ---the features are connected by left join of the tables
     SELECT
         u.*,
         p.*,

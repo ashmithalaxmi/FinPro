@@ -1,5 +1,6 @@
 {{
     config(
+        ---tags to refer the mart layer
         tags=['mart']
     )
 }}
@@ -9,7 +10,7 @@ WITH
 stg_user AS (
 
     SELECT
-
+        ---select the necessary features from the user table
         user_ID, user_name, role
 
     FROM {{ ref('stg_user') }}
@@ -18,7 +19,7 @@ stg_user AS (
 stg_project AS (
 
     SELECT
-
+        ---select the necessary features from the project table
         project_id, project_name
 
     FROM {{ ref('stg_project') }}
@@ -27,7 +28,7 @@ stg_project AS (
 
 stg_timesheet AS (
     SELECT
-
+        ---select all features from timesheet table
         *
 
     FROM {{ ref('stg_timesheet') }}
@@ -35,6 +36,7 @@ stg_timesheet AS (
 
 
 left_join_user_time AS (
+    ---the features are connected by left join of the tables
     SELECT
         u.*,
         p.*,

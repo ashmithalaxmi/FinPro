@@ -1,13 +1,22 @@
 version: 2
 
 sources:
+  #name of the source
   - name: TF_SYSTEM
+    #name of the database
     database: TIMESHEET
+    #name of the schema
     schema: RAW
     tables:
+      #table that consists of feedbacks from the employees
       - name: FEEDBACK
+      #table that consists of project details of the organization
       - name: PROJECT
+      #table that has details about the projects assigned to respective employees
       - name: PROJECTASSIGN
+      #maintains the temporary otp and password
       - name: TEM_OTP
+      #Has the timesheet data stored
       - name: TIMESHEET
+      #the employee details are maintained here
       - name:  USER
