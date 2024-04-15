@@ -11,7 +11,9 @@ stg_user AS (
 
     SELECT
         ---select the necessary features from the user table
-        user_ID, user_name, role
+        user_ID, 
+        user_name, 
+        role
 
     FROM {{ ref('stg_user') }}
 ),
@@ -20,7 +22,8 @@ stg_project AS (
 
     SELECT
         ---select the necessary features from the project table
-        project_id, project_name
+        project_id, 
+        project_name
 
     FROM {{ ref('stg_project') }}
 
@@ -40,8 +43,13 @@ left_join_user_time AS (
     SELECT
         u.*,
         p.*,
-        t.activity, t.mon_hrs, t.tue_hrs, t.wed_hrs,  
-        t.thur_hrs, t.fri_hrs, t.sat_hrs
+        t.activity, 
+        t.mon_hrs, 
+        t.tue_hrs, 
+        t.wed_hrs,  
+        t.thur_hrs, 
+        t.fri_hrs, 
+        t.sat_hrs
     FROM stg_user u
     LEFT JOIN 
         stg_timesheet t ON u.user_ID = t.user_ID

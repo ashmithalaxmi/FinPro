@@ -11,7 +11,9 @@ stg_user AS (
 
     SELECT
         ---select the necessary features from the user table
-        user_ID, user_name, role
+        user_ID, 
+        user_name, 
+        role
 
     FROM {{ ref('stg_user') }}
 ),
@@ -20,7 +22,8 @@ stg_project AS (
 
     SELECT
         ---select the necessary features from the project table
-        project_id, project_name
+        project_id, 
+        project_name
 
     FROM {{ ref('stg_project') }}
 
@@ -39,7 +42,8 @@ left_join_user_proj AS (
     SELECT
         u.*,
         p.*,
-        a.allocation_start, a.allocation_end
+        a.allocation_start, 
+        a.allocation_end
     FROM stg_user u
     LEFT JOIN 
         stg_projassign a ON u.user_ID = a.user_ID
