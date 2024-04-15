@@ -64,6 +64,7 @@ function Login() {
             required
           />
           <br/>
+          <br></br>
         </div>
         <div className="w-full max-w-xs">
           <label htmlFor="password" className="block text-gray-700">Pass: </label>
